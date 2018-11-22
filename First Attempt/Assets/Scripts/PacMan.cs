@@ -6,103 +6,180 @@ public class PacMan : MonoBehaviour
 {
     public float speed = 4.0f;
 
-    private Vector2 direction = Vector2.zero;
+    public Sprite idleSprite;
 
-    private Node currentNode;
+    private Vector2 direction = Vector2.zero;
+    private Vector2 nextDirection; 
+
+    private Node currentNode, previousNode, targetNode;
 
     // Use this for initialization
-    void Start() {
-
+    void Start()
+    {
         Node node = GetNodeAtPosition (transform.localPosition);
 
-        if (node != null) {
-
+        if (node != null)
+        {
             currentNode = node;
             Debug.Log(currentNode);
         }
+
+        direction = Vector2.left;
+        ChangePosition(direction);
     }
 
     // Update is called once per frame
-    void Update() {
-
+    void Update()
+    {
         CheckInput();
 
-        //Move();
+        Move();
 
         UpdateOrientation();
+
+        UpdateAnimationState();
     }
 
     void CheckInput() {
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            ChangePosition(Vector2.left);
+        }
 
-            direction = Vector2.left;
-            MoveToNode(direction);
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            ChangePosition(Vector2.right);
+        }
 
-        } else if (Input.GetKeyDown(KeyCode.RightArrow)) {
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            ChangePosition(Vector2.up);
+        }
 
-            direction = Vector2.right;
-            MoveToNode(direction);
-
-        } else if (Input.GetKeyDown(KeyCode.UpArrow)) {
-
-            direction = Vector2.up;
-            MoveToNode(direction);
-
-        } else if (Input.GetKeyDown(KeyCode.DownArrow)) {
-
-            direction = Vector2.down;
-            MoveToNode(direction);
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            ChangePosition(Vector2.down);
         }
     }
 
-    void Move() {
+    void ChangePosition(Vector2 d)
+    {
+        if (d != direction)
+            nextDirection = d;
 
-        transform.localPosition += (Vector3)(direction * speed) * Time.deltaTime;
+        if (currentNode != null)
+        {
+            Node moveToNode = CanMove(d);
+
+            if (moveToNode != null)
+            {
+                direction = d;
+                targetNode = moveToNode;
+                previousNode = currentNode;
+                currentNode = null;
+            }
+        }
     }
 
-    void MoveToNode (Vector2 d) {
+    void Move()
+    {
+        if (targetNode != currentNode && targetNode != null)
+        {
+            if (OverShotTarget ())
+            {
+                currentNode = targetNode;
 
+                transform.localPosition = currentNode.transform.position;
+
+                Node moveToNode = CanMove(nextDirection);
+
+                if (moveToNode != null)
+                    direction = nextDirection;
+
+                if (moveToNode == null)
+                    moveToNode = CanMove(direction);
+
+                if (moveToNode != null)
+                {
+                    targetNode = moveToNode;
+                    previousNode = currentNode;
+                    currentNode = null;
+                }
+
+                else
+                {
+                    direction = Vector2.zero;
+                }                      
+            }
+
+            else
+            {
+                transform.localPosition += (Vector3)(direction * speed) * Time.deltaTime;
+            }
+        }       
+    }
+
+    void MoveToNode (Vector2 d)
+    {
         Node moveToNode = CanMove(d);
 
-        if (moveToNode != null) {
-
+        if (moveToNode != null)
+        {
             transform.localPosition = moveToNode.transform.position;
             currentNode = moveToNode;
         }
     }
-    void UpdateOrientation() {
 
-        if (direction == Vector2.left) {
-
+    void UpdateOrientation()
+    {
+        if (direction == Vector2.left)
+        {
             transform.localScale = new Vector3(-1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
 
-        } else if (direction == Vector2.right) {
-
+        else if (direction == Vector2.right)
+        {
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
 
-        } else if (direction == Vector2.up) {
-
+        else if (direction == Vector2.up)
+        {
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 90);
+        }
 
-        } else if (direction == Vector2.down) {
-
+        else if (direction == Vector2.down)
+        {
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 270);
         }
     }
 
-    Node CanMove(Vector2 d) {
+    void UpdateAnimationState ()
+    {
+        if (direction == Vector2.zero)
+        {
+            GetComponent<Animator>().enabled = false;
+            GetComponent<SpriteRenderer>().sprite = idleSprite;
+        }
 
+        else
+        {
+            GetComponent<Animator>().enabled = true;
+        }
+    }
+
+    Node CanMove(Vector2 d)
+    {
         Node moveToNode = null;
 
-        for (int i = 0; i < currentNode.neighbors.Length; i++) {
-
-            if (currentNode.validDirections [i] == d) {
-
+        for (int i = 0; i < currentNode.neighbors.Length; i++)
+        {
+            if (currentNode.validDirections [i] == d)
+            {
                 moveToNode = currentNode.neighbors[i];
                 break;
             }
@@ -111,15 +188,29 @@ public class PacMan : MonoBehaviour
         return moveToNode;
     }
 
-    Node GetNodeAtPosition(Vector2 pos) {
-
+    Node GetNodeAtPosition(Vector2 pos)
+    {
         GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[(int)pos.x, (int)pos.y];
 
-        if (tile != null) {
-
+        if (tile != null)
+        {
             return tile.GetComponent<Node>();
         }
 
         return null;
+    }
+
+    bool OverShotTarget()
+    {
+        float nodeToTarget = LengthFromNode(targetNode.transform.position);
+        float nodeToSelf = LengthFromNode(transform.localPosition);
+
+        return nodeToSelf > nodeToTarget;
+    }
+
+    float LengthFromNode(Vector2 targetPosition)
+    {
+        Vector2 vec = targetPosition - (Vector2)previousNode.transform.position;
+        return vec.sqrMagnitude;
     }
 }

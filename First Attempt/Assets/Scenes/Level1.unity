@@ -16182,6 +16182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  idleSprite: {fileID: 21300000, guid: 3d855604889c2b941b457440fb62e7aa, type: 3}
 --- !u!1 &604232370
 GameObject:
   m_ObjectHideFlags: 0
