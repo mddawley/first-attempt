@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4209356252891442}
   - component: {fileID: 212767460040867772}
+  - component: {fileID: 114651907609998994}
   m_Layer: 0
   m_Name: pellet
   m_TagString: Untagged
@@ -40,6 +41,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114651907609998994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985203421670972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b132fbbb19fe8644ea886e655e8fedf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPortal: 0
+  isPellet: 1
+  isSuperPellet: 0
+  didConsume: 0
+  portalReceiver: {fileID: 0}
 --- !u!212 &212767460040867772
 SpriteRenderer:
   m_ObjectHideFlags: 1
