@@ -15,16 +15,24 @@ public class PacMan : MonoBehaviour
 
     private Node currentNode, previousNode, targetNode;
 
+    public Node StartingNode;
+
     // Use this for initialization
     void Start()
     {
-        Node node = GetNodeAtPosition (transform.localPosition);
+        /*Changes made from this to allow for PacMan to start in the center.
+         * 
+         * Node node = GetNodeAtPosition (transform.localPosition);
 
         if (node != null)
         {
             currentNode = node;
             Debug.Log(currentNode);
-        }
+        }*/
+
+        currentNode = StartingNode;
+
+        Debug.Log(currentNode);
 
         direction = Vector2.left;
         ChangePosition(direction);
@@ -32,9 +40,7 @@ public class PacMan : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        Debug.Log("SCORE: " + GameObject.Find("Game").GetComponent<GameBoard>().score);
-
+    {        
         CheckInput();
 
         Move();
