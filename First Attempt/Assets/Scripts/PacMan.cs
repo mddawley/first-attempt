@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class PacMan : MonoBehaviour
 {
+    public AudioClip chomp1;
+    public AudioClip chomp2;
+
+    public Vector2 orientation;
+
     public float speed = 4.0f;
 
     public Sprite idleSprite;
+
+    private bool playedChomp1 = false;
+
+    private AudioSource audio;
 
     private Vector2 direction = Vector2.zero;
     private Vector2 nextDirection;
@@ -30,11 +39,15 @@ public class PacMan : MonoBehaviour
             Debug.Log(currentNode);
         }*/
 
+        audio = transform.GetComponent<AudioSource>();
+
         currentNode = StartingNode;
 
         Debug.Log(currentNode);
 
         direction = Vector2.left;
+        orientation = Vector2.left;
+
         ChangePosition(direction);
     }
 
@@ -50,6 +63,23 @@ public class PacMan : MonoBehaviour
         UpdateAnimationState();
 
         ConsumePellet();
+    }
+
+    void PlayChompSound()
+    {
+        if (playedChomp1)
+        {
+            //- Play chomp 2, set playedChome1 to false
+            audio.PlayOneShot(chomp2);
+            playedChomp1 = false;
+        }
+
+        else
+        {
+            //- Play chomp1, set playedChomp1 to true
+            audio.PlayOneShot(chomp1);
+            playedChomp1 = true;
+        }
     }
 
     void CheckInput() {
@@ -167,24 +197,28 @@ public class PacMan : MonoBehaviour
     {
         if (direction == Vector2.left)
         {
+            orientation = Vector2.left;
             transform.localScale = new Vector3(-1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
 
         else if (direction == Vector2.right)
         {
+            orientation = Vector2.right;
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
 
         else if (direction == Vector2.up)
         {
+            orientation = Vector2.up;
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 90);
         }
 
         else if (direction == Vector2.down)
         {
+            orientation = Vector2.down;
             transform.localScale = new Vector3(1, 1, 1);
             transform.localRotation = Quaternion.Euler(0, 0, 270);
         }
@@ -220,6 +254,7 @@ public class PacMan : MonoBehaviour
                     tile.didConsume = true;
                     GameObject.Find("Game").GetComponent<GameBoard>().score += 1;
                     pelletsConsumed++;
+                    PlayChompSound();
                 }
             }
         }

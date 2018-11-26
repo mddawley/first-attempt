@@ -9,43 +9,95 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1608438162428720}
+  m_RootGameObject: {fileID: 1462221898427616}
   m_IsPrefabAsset: 1
---- !u!1 &1608438162428720
+--- !u!1 &1462221898427616
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4389330530889148}
-  - component: {fileID: 212320784978919104}
+  - component: {fileID: 4641407139862706}
+  - component: {fileID: 212019260792540974}
+  - component: {fileID: 114618546897117054}
+  - component: {fileID: 95772189942335840}
   m_Layer: 0
   m_Name: Ghost
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4389330530889148
+--- !u!4 &4641407139862706
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1608438162428720}
+  m_GameObject: {fileID: 1462221898427616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 7, z: 0}
+  m_LocalPosition: {x: 13.5, y: 19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212320784978919104
+--- !u!95 &95772189942335840
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462221898427616}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114618546897117054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462221898427616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312173e345532114fb687b840bddf2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5.9
+  pinkyReleaseTimer: 5
+  inkyReleaseTimer: 14
+  clydeReleaseTimer: 21
+  ghostReleaseTimer: 0
+  isInGhostHouse: 0
+  startingPosition: {fileID: 0}
+  homeNode: {fileID: 0}
+  scatterModeTimer1: 7
+  chaseModeTimer1: 20
+  scatterModeTimer2: 7
+  chaseModeTimer2: 20
+  scatterModeTimer3: 5
+  chaseModeTimer3: 20
+  scatterModeTimer4: 5
+  ghostUp: {fileID: 9100000, guid: 37084e4b5345c3f4782289e95b99b98f, type: 2}
+  ghostDown: {fileID: 9100000, guid: f8a6287d578b07d4f9185ee524e2bd54, type: 2}
+  ghostLeft: {fileID: 9100000, guid: 4b29f77895118f245b7dd2b95969631a, type: 2}
+  ghostRight: {fileID: 9100000, guid: 31b769ca03d88ce45a425938969b18d7, type: 2}
+  ghostType: 0
+  targetNode: {fileID: 0}
+--- !u!212 &212019260792540974
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1608438162428720}
+  m_GameObject: {fileID: 1462221898427616}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

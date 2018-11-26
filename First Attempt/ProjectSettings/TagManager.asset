@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PacMan
+  - Ghost
+  - ghostHome
   layers:
   - Default
   - TransparentFX
