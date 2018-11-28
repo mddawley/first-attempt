@@ -6402,6 +6402,11 @@ Prefab:
       propertyPath: isPellet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: isGhostHouse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -18391,8 +18396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 2126680153}
   - {fileID: 546106509}
+  - {fileID: 2126680153}
   - {fileID: 1133665213}
   validDirections: []
 --- !u!4 &655307772 stripped
@@ -19333,10 +19338,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1462221898427616, guid: 4df58fed1f5c4e74b810017206123986, type: 2}
-      propertyPath: m_Name
-      value: Ghost_Blinky
-      objectReference: {fileID: 0}
     - target: {fileID: 114618546897117054, guid: 4df58fed1f5c4e74b810017206123986,
         type: 2}
       propertyPath: startingPosition
@@ -19349,9 +19350,18 @@ Prefab:
       objectReference: {fileID: 1974912085}
     - target: {fileID: 114618546897117054, guid: 4df58fed1f5c4e74b810017206123986,
         type: 2}
+      propertyPath: ghostHouse
+      value: 
+      objectReference: {fileID: 2129928633}
+    - target: {fileID: 114618546897117054, guid: 4df58fed1f5c4e74b810017206123986,
+        type: 2}
       propertyPath: targetNode
       value: 
       objectReference: {fileID: 1792245176}
+    - target: {fileID: 1462221898427616, guid: 4df58fed1f5c4e74b810017206123986, type: 2}
+      propertyPath: m_Name
+      value: Ghost_Blinky
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df58fed1f5c4e74b810017206123986, type: 2}
   m_IsPrefabAsset: 0
@@ -19814,6 +19824,11 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: isGhostHouseEntrance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -20439,6 +20454,7 @@ MonoBehaviour:
   - {fileID: 478113357}
   - {fileID: 1807733655}
   - {fileID: 1792245176}
+  - {fileID: 2129928633}
   validDirections: []
 --- !u!1 &744388030
 GameObject:
@@ -21765,8 +21781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 252535491}
   - {fileID: 1792245176}
+  - {fileID: 252535491}
   - {fileID: 1953754567}
   validDirections: []
 --- !u!4 &797787609 stripped
@@ -23114,6 +23130,11 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: isGhostHouse
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -35795,6 +35816,11 @@ Prefab:
       propertyPath: isPellet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: isGhostHouseEntrance
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -37897,6 +37923,11 @@ Prefab:
       propertyPath: homeNode
       value: 
       objectReference: {fileID: 1627487948}
+    - target: {fileID: 114086896843010426, guid: 1da26d3742e16a942b0a4f811fc16177,
+        type: 2}
+      propertyPath: ghostHouse
+      value: 
+      objectReference: {fileID: 2129928633}
     - target: {fileID: 1610665339157138, guid: 1da26d3742e16a942b0a4f811fc16177, type: 2}
       propertyPath: m_Name
       value: Ghost_Pinky
@@ -38682,6 +38713,11 @@ Prefab:
       propertyPath: homeNode
       value: 
       objectReference: {fileID: 617168275}
+    - target: {fileID: 114742567172788074, guid: fe0eec107a47a0b40a76751e9323c64d,
+        type: 2}
+      propertyPath: ghostHouse
+      value: 
+      objectReference: {fileID: 210373218}
     - target: {fileID: 1699456767202264, guid: fe0eec107a47a0b40a76751e9323c64d, type: 2}
       propertyPath: m_Name
       value: Ghost_Clyde
@@ -43086,6 +43122,11 @@ Prefab:
       propertyPath: homeNode
       value: 
       objectReference: {fileID: 2084241603}
+    - target: {fileID: 114686656224370338, guid: 666985ebe865de24080d4b01829e7532,
+        type: 2}
+      propertyPath: ghostHouse
+      value: 
+      objectReference: {fileID: 210373218}
     - target: {fileID: 1598869272762034, guid: 666985ebe865de24080d4b01829e7532, type: 2}
       propertyPath: m_Name
       value: Ghost_Inky
@@ -44893,6 +44934,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalPellets: 0
   score: 0
+  backgroundAudioNormal: {fileID: 8300000, guid: 61d2a77e3db766d4488f3e5d8baa1815,
+    type: 3}
+  backgroundAudioFrightened: {fileID: 8300000, guid: 4131383b6449f714097f82b35df3c76e,
+    type: 3}
 --- !u!4 &1796247413
 Transform:
   m_ObjectHideFlags: 0
@@ -45152,6 +45197,7 @@ MonoBehaviour:
   - {fileID: 739283679}
   - {fileID: 18203585}
   - {fileID: 546106509}
+  - {fileID: 210373218}
   validDirections: []
 --- !u!1 &1809222400
 GameObject:

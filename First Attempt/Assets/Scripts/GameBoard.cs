@@ -9,6 +9,10 @@ public class GameBoard : MonoBehaviour {
 
     public int totalPellets = 0;
     public int score = 0;
+    public int pacManLives = 3;
+
+    public AudioClip backgroundAudioNormal;
+    public AudioClip backgroundAudioFrightened;
 
     public GameObject[,] board = new GameObject[boardWidth, boardHeight];
 
@@ -34,12 +38,48 @@ public class GameBoard : MonoBehaviour {
                 board[(int)pos.x, (int)pos.y] = o;
             }
 
-            else
+            if (o.tag == "PacMan")
             {
-                Debug.Log("Found PacMan at: " + pos);
-            }       
+                Debug.Log("GameBoard found PacMan at: " + pos);
+            }
+
+            if (o.name == "Ghost_Blinky")
+            {
+                Debug.Log("GameBoard found Blinky at: " + pos);
+            }
+
+            if (o.name == "Ghost_Pinky")
+            {
+                Debug.Log("GameBoard found Pinky at: " + pos);
+            }
+
+            if (o.name == "Ghost_Inky")
+            {
+                Debug.Log("GameBoard found Inky at: " + pos);
+            }
+
+            if (o.name == "Ghost_Clyde")
+            {
+                Debug.Log("GameBoard found Clyde at: " + pos);
+            }
         }
     }
+
+    public void Restart()
+    {
+        pacManLives -= 1;
+
+        GameObject pacMan = GameObject.Find("PacMan");
+        pacMan.transform.GetComponent<PacMan>().Restart();
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<Ghost>().Restart();
+        }
+    }
+
 	
 	// Update is called once per frame
 	void Update () {

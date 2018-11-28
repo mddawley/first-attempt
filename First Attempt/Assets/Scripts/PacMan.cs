@@ -43,10 +43,21 @@ public class PacMan : MonoBehaviour
 
         currentNode = StartingNode;
 
-        Debug.Log(currentNode);
+        direction = Vector2.left;
+        orientation = Vector2.left;
+
+        ChangePosition(direction);
+    }
+
+    public void Restart()
+    {
+        transform.position = new Vector2 (13.5f, 7);
+
+        currentNode = StartingNode;
 
         direction = Vector2.left;
         orientation = Vector2.left;
+        nextDirection = Vector2.left;
 
         ChangePosition(direction);
     }
@@ -255,6 +266,16 @@ public class PacMan : MonoBehaviour
                     GameObject.Find("Game").GetComponent<GameBoard>().score += 1;
                     pelletsConsumed++;
                     PlayChompSound();
+
+                    if (tile.isSuperPellet)
+                    {
+                        GameObject[] ghosts = GameObject.FindGameObjectsWithTag("Ghost");
+
+                        foreach (GameObject go in ghosts)
+                        {
+                            go.GetComponent<Ghost>().StartFrightenedMode();
+                        }                    
+                    }
                 }
             }
         }
