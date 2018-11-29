@@ -80,7 +80,7 @@ public class Ghost : MonoBehaviour
 
     //-Movement
     public Node targetNode;
-    private Node currentNode, previousNode;
+    public Node currentNode, previousNode;
     private Vector2 direction, nextDirection;
 
     //- Pac-Man reference
@@ -713,7 +713,10 @@ public class Ghost : MonoBehaviour
 
     Node GetNodeAtPosition(Vector2 pos)
     {
-        GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[(int)pos.x, (int)pos.y];
+        int tileX = Mathf.RoundToInt(pos.x * 10);
+        int tileY = Mathf.RoundToInt(pos.y * 10);
+
+        GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[tileX, tileY];
 
         if (tile != null)
         {
@@ -728,8 +731,8 @@ public class Ghost : MonoBehaviour
 
     GameObject GetTileAtPosition(Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x);
-        int tileY = Mathf.RoundToInt(pos.y);
+        int tileX = Mathf.RoundToInt(pos.x * 10);
+        int tileY = Mathf.RoundToInt(pos.y * 10);
 
         GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 
@@ -741,7 +744,10 @@ public class Ghost : MonoBehaviour
 
     GameObject GetPortal(Vector2 pos)
     {
-        GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[(int)pos.x, (int)pos.y];
+        int tileX = Mathf.RoundToInt(pos.x * 10);
+        int tileY = Mathf.RoundToInt(pos.y * 10);
+
+        GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 
         if (tile != null)
         {

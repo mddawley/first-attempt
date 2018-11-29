@@ -6,6 +6,7 @@ public class Node : MonoBehaviour {
 
     public Node[] neighbors;
     public Vector2[] validDirections;
+    public bool isGhostHouseEntrance;
 
 	// Use this for initialization
 	void Start () {

@@ -11,6 +11,7 @@ public class Tile : MonoBehaviour {
     public bool didConsume;
 
     public bool isGhostHouseEntrance;
+    public bool isGhostHouseExit;
     public bool isGhostHouse;
 
     public GameObject portalReceiver;

@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class GameBoard : MonoBehaviour {
 
-    private static int boardWidth = 28;
-    private static int boardHeight = 36;
+    private static int boardWidth = 280;
+    private static int boardHeight = 360;
 
     public int totalPellets = 0;
+    public int totalPowerPellets = 0;
+    public int totalGhostHouseNodes = 0;
     public int score = 0;
     public int pacManLives = 3;
 
@@ -24,45 +26,36 @@ public class GameBoard : MonoBehaviour {
         foreach (GameObject o in objects)
         {
             Vector2 pos = o.transform.position;
+            int posX = Mathf.RoundToInt(pos.x * 10);            
+            int posY = Mathf.RoundToInt(pos.y * 10);            
 
             if (o.name != "PacMan" && o.name != "Nodes" && o.name != "NonNodes" && o.name != "Maze" && o.name != "Pellets" && o.tag !="Ghost" && o.tag != "ghostHome")
             {
-                if (o.GetComponent<Tile> () != null)
+                if (o.GetComponent<Tile>() != null)
                 {
-                    if (o.GetComponent<Tile> ().isPellet || o.GetComponent<Tile>().isSuperPellet)
+                    if (o.GetComponent<Tile>().isPellet)
                     {
-                        totalPellets++;
-                    }                    
+                        totalPellets++;                        
+                    }
+
+                    if (o.GetComponent<Tile>().isSuperPellet)
+                    {
+                        totalPowerPellets++;
+                    }
+
+                    if (o.GetComponent<Tile>().isGhostHouse)
+                    {
+                        totalGhostHouseNodes++;
+                    }
                 }
 
-                board[(int)pos.x, (int)pos.y] = o;
-            }
-
-            if (o.tag == "PacMan")
-            {
-                Debug.Log("GameBoard found PacMan at: " + pos);
-            }
-
-            if (o.name == "Ghost_Blinky")
-            {
-                Debug.Log("GameBoard found Blinky at: " + pos);
-            }
-
-            if (o.name == "Ghost_Pinky")
-            {
-                Debug.Log("GameBoard found Pinky at: " + pos);
-            }
-
-            if (o.name == "Ghost_Inky")
-            {
-                Debug.Log("GameBoard found Inky at: " + pos);
-            }
-
-            if (o.name == "Ghost_Clyde")
-            {
-                Debug.Log("GameBoard found Clyde at: " + pos);
+                board[posX, posY] = o;
             }
         }
+
+        print("Total Pellets: " + totalPellets);
+        print("Total Power Pellets: " + totalPowerPellets);
+        print("Total Ghost House Nodes: " + totalGhostHouseNodes);
     }
 
     public void Restart()
