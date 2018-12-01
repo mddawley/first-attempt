@@ -31274,9 +31274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 1807733655}
-  - {fileID: 739283679}
   - {fileID: 1565021247}
+  - {fileID: 739283679}
+  - {fileID: 1807733655}
   validDirections: []
   isGhostHouseEntrance: 1
 --- !u!1001 &1193513508
@@ -38717,7 +38717,7 @@ Prefab:
         type: 2}
       propertyPath: ghostHouse
       value: 
-      objectReference: {fileID: 2129928633}
+      objectReference: {fileID: 135237678}
     - target: {fileID: 1610665339157138, guid: 1da26d3742e16a942b0a4f811fc16177, type: 2}
       propertyPath: m_Name
       value: Ghost_Pinky

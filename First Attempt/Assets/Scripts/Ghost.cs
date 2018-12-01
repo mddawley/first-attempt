@@ -94,6 +94,7 @@ public class Ghost : MonoBehaviour
         pacMan = GameObject.FindGameObjectWithTag("PacMan");
 
         Node node = GetNodeAtPosition(transform.localPosition);
+        Debug.Log(node);
 
         if (node != null)
         {
@@ -111,7 +112,7 @@ public class Ghost : MonoBehaviour
             //- Below altered to allow Red Ghost to begin centered
             direction = Vector2.left;
             currentNode = startingPosition;
-            //- targetNode = ChooseNextNode();
+            targetNode = ChooseNextNode();
         }
 
         previousNode = currentNode;
@@ -125,6 +126,7 @@ public class Ghost : MonoBehaviour
         if (transform.name == "Ghost_Blinky")
         {
             transform.position = new Vector2(13.5f, 19);
+            direction = Vector2.left;
         }
             
         else
