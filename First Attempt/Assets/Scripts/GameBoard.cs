@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class GameBoard : MonoBehaviour {
 
@@ -17,10 +19,13 @@ public class GameBoard : MonoBehaviour {
     public AudioClip backgroundAudioFrightened;
     public AudioClip backgroundAudioPacManDeath;
 
+    public Text playerText;
+    public Text readyText;
+
     public GameObject[,] board = new GameObject[boardWidth, boardHeight];
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
         Object[] objects = GameObject.FindObjectsOfType(typeof(GameObject));
 
@@ -28,14 +33,14 @@ public class GameBoard : MonoBehaviour {
         {
             Vector2 pos = o.transform.position;
 
-            if (o.name != "PacMan" && o.name != "Nodes" && o.name != "NonNodes" && o.name != "Maze" && o.name != "Pellets" && o.tag !="Ghost" && o.tag != "ghostHome")
+            if (o.name != "PacMan" && o.name != "Nodes" && o.name != "NonNodes" && o.name != "Maze" && o.name != "Pellets" && o.tag != "Ghost" && o.tag != "ghostHome" && o.name != "Canvas" && o.name != "PlayerText" && o.name != "ReadyText")
             {
-                if (o.GetComponent<Tile> () != null)
+                if (o.GetComponent<Tile>() != null)
                 {
-                    if (o.GetComponent<Tile> ().isPellet || o.GetComponent<Tile>().isSuperPellet)
+                    if (o.GetComponent<Tile>().isPellet || o.GetComponent<Tile>().isSuperPellet)
                     {
                         totalPellets++;
-                    }                    
+                    }
                 }
 
                 board[(int)pos.x, (int)pos.y] = o;
@@ -66,6 +71,66 @@ public class GameBoard : MonoBehaviour {
                 Debug.Log("GameBoard found Clyde at: " + pos);
             }
         }
+
+        StartGame();
+    }
+
+    public void StartGame()
+    {
+        //- Hide All Ghosts
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<SpriteRenderer>().enabled = false;
+            ghost.transform.GetComponent<Ghost>().canMove = false;
+        }
+
+        GameObject pacMan = GameObject.Find("PacMan");
+        pacMan.transform.GetComponent<SpriteRenderer>().enabled = false;
+        pacMan.transform.GetComponent<PacMan>().canMove = false;
+
+        StartCoroutine(ShowObjectsAfter(2.25f));
+    }
+
+    IEnumerator ShowObjectsAfter (float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<SpriteRenderer>().enabled = true;            
+        }
+
+        GameObject pacMan = GameObject.Find("PacMan");
+        pacMan.transform.GetComponent<SpriteRenderer>().enabled = true;
+
+        playerText.transform.GetComponent<Text>().enabled = false;
+
+        StartCoroutine(StartGameAfter(2));
+    }
+
+    IEnumerator StartGameAfter (float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {            
+            ghost.transform.GetComponent<Ghost>().canMove = true;
+        }
+
+        GameObject pacMan = GameObject.Find("PacMan");        
+        pacMan.transform.GetComponent<PacMan>().canMove = true;
+
+        readyText.transform.GetComponent<Text>().enabled = false;
+
+        transform.GetComponent<AudioSource>().clip = backgroundAudioNormal;
+        transform.GetComponent<AudioSource>().Play();
     }
 
     public void StartDeath()
@@ -121,15 +186,41 @@ public class GameBoard : MonoBehaviour {
 
         yield return new WaitForSeconds(delay);
 
-        StartCoroutine(ProcessRestart(2));
+        StartCoroutine(ProcessRestart(1));
     }
 
     IEnumerator ProcessRestart (float delay)
     {
+        playerText.transform.GetComponent<Text>().enabled = true;
+        readyText.transform.GetComponent<Text>().enabled = true;
+
         GameObject pacMan = GameObject.Find("PacMan");
         pacMan.transform.GetComponent<SpriteRenderer>().enabled = false;
 
         transform.GetComponent<AudioSource>().Stop();
+
+        yield return new WaitForSeconds(delay);
+
+        StartCoroutine(ProcessRestartShowObjects(1));        
+    }
+
+    IEnumerator ProcessRestartShowObjects (float delay)
+    {
+        playerText.transform.GetComponent<Text>().enabled = false;
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<SpriteRenderer>().enabled = true;
+            ghost.transform.GetComponent<Ghost>().MoveToStartingPosition();
+        }
+
+        GameObject pacMan = GameObject.Find("PacMan");
+
+        pacMan.transform.GetComponent<Animator>().enabled = false;
+        pacMan.transform.GetComponent<SpriteRenderer>().enabled = true;
+        pacMan.transform.GetComponent<PacMan>().MoveToStartingPosition();
 
         yield return new WaitForSeconds(delay);
 
@@ -138,6 +229,8 @@ public class GameBoard : MonoBehaviour {
 
     public void Restart()
     {
+        readyText.transform.GetComponent<Text>().enabled = false;
+
         pacManLives -= 1;
         
         GameObject pacMan = GameObject.Find("PacMan");

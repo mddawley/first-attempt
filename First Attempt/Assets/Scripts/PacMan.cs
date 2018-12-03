@@ -54,22 +54,28 @@ public class PacMan : MonoBehaviour
         ChangePosition(direction);
     }
 
+    public void MoveToStartingPosition ()
+    {
+        transform.position = new Vector2(13.5f, 7);
+
+        transform.GetComponent<SpriteRenderer>().sprite = idleSprite;
+
+        direction = Vector2.left;
+        orientation = Vector2.left;
+
+        UpdateOrientation();
+    }
+
     public void Restart()
     {
         canMove = true;
 
+        currentNode = StartingNode;
+        
+        nextDirection = Vector2.left;
+
         transform.GetComponent<Animator>().runtimeAnimatorController = chompAnimation;
         transform.GetComponent<Animator>().enabled = true;
-
-        transform.GetComponent<SpriteRenderer>().enabled = true;
-               
-        transform.position = new Vector2 (13.5f, 7);
-
-        currentNode = StartingNode;
-
-        direction = Vector2.left;
-        orientation = Vector2.left;
-        nextDirection = Vector2.left;
 
         ChangePosition(direction);
     }
