@@ -38,7 +38,7 @@ public class Ghost : MonoBehaviour
     public int scatterModeTimer4 = 5;
     public int frightenedModeDuration = 10;
     public int startBlinkingAt = 7;
-
+    
     private int modeChangeIteration = 1;
     private float modeChangeTimer = 0;
     private float frightenedModeTimer = 0;
@@ -79,6 +79,7 @@ public class Ghost : MonoBehaviour
     Mode previousMode;
 
     //-Movement
+    public bool canMove = true;
     public Node targetNode;
     private Node currentNode, previousNode;
     private Vector2 direction, nextDirection;
@@ -122,6 +123,16 @@ public class Ghost : MonoBehaviour
 
     public void Restart()
     {
+        canMove = true;
+
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+
+        currentMode = Mode.Scatter;
+
+        moveSpeed = normalMoveSpeed;
+
+        previousMoveSpeed = 0;
+
         if (transform.name == "Ghost_Blinky")
         {
             transform.position = new Vector2(13.5f, 19);
@@ -158,15 +169,19 @@ public class Ghost : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
-        ModeUpdate();
+        if (canMove)
+        {
+            ModeUpdate();
 
-        Move();
+            Move();
 
-        ReleaseGhosts();
+            ReleaseGhosts();
 
-        CheckCollision();
+            CheckCollision();
 
-        CheckIsInGhostHouse();
+            CheckIsInGhostHouse();
+        }
+        
 	}
 
     void CheckIsInGhostHouse()
@@ -217,10 +232,14 @@ public class Ghost : MonoBehaviour
                 return; 
             }
 
-            else if (currentMode != Mode.Frightened && currentMode != Mode.Consumed)
+            else
             {
-                //- Pac-Man should die
-                GameObject.Find("Game").transform.GetComponent<GameBoard>().Restart();
+                if (currentMode != Mode.Consumed)
+                {
+
+                    //- Pac-Man should die
+                    GameObject.Find("Game").transform.GetComponent<GameBoard>().StartDeath();
+                }
             }            
         }
     }

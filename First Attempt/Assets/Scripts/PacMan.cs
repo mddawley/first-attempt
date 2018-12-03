@@ -7,11 +7,16 @@ public class PacMan : MonoBehaviour
     public AudioClip chomp1;
     public AudioClip chomp2;
 
+    public RuntimeAnimatorController chompAnimation;
+    public RuntimeAnimatorController deathAnimation;
+
     public Vector2 orientation;
 
     public float speed = 4.0f;
 
     public Sprite idleSprite;
+
+    public bool canMove = true;
 
     private bool playedChomp1 = false;
 
@@ -51,6 +56,13 @@ public class PacMan : MonoBehaviour
 
     public void Restart()
     {
+        canMove = true;
+
+        transform.GetComponent<Animator>().runtimeAnimatorController = chompAnimation;
+        transform.GetComponent<Animator>().enabled = true;
+
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+               
         transform.position = new Vector2 (13.5f, 7);
 
         currentNode = StartingNode;
@@ -64,16 +76,19 @@ public class PacMan : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {        
-        CheckInput();
+    {
+        if (canMove)
+        {
+            CheckInput();
 
-        Move();
+            Move();
 
-        UpdateOrientation();
+            UpdateOrientation();
 
-        UpdateAnimationState();
+            UpdateAnimationState();
 
-        ConsumePellet();
+            ConsumePellet();
+        }        
     }
 
     void PlayChompSound()

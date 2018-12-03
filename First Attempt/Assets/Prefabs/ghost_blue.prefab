@@ -71,18 +71,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312173e345532114fb687b840bddf2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ghostType: 2
   moveSpeed: 5.9
+  normalMoveSpeed: 5.9
   frightenedModeMoveSpeed: 2.9
+  consumedMoveSpeed: 15
   pinkyReleaseTimer: 5
   inkyReleaseTimer: 14
   clydeReleaseTimer: 21
   ghostReleaseTimer: 0
-  frightenedModeDuration: 10
-  startBlinkingAt: 7
-  isInGhostHouse: 1
-  startingPosition: {fileID: 0}
-  homeNode: {fileID: 0}
-  ghostHouse: {fileID: 0}
   scatterModeTimer1: 7
   chaseModeTimer1: 20
   scatterModeTimer2: 7
@@ -90,17 +87,22 @@ MonoBehaviour:
   scatterModeTimer3: 5
   chaseModeTimer3: 20
   scatterModeTimer4: 5
-  eyesUp: {fileID: 21300000, guid: 389aaaefb543e47498af2cbb696fcc98, type: 3}
-  eyesDown: {fileID: 21300000, guid: 8c02f037d044f274fa7726101cc108ed, type: 3}
-  eyesLeft: {fileID: 21300000, guid: 7eb44012e2bfb294382233648b664d2f, type: 3}
-  eyesRight: {fileID: 21300000, guid: c5d8f2bf737c1c34ea9b267796b42d42, type: 3}
+  frightenedModeDuration: 10
+  startBlinkingAt: 7
+  startingPosition: {fileID: 0}
+  homeNode: {fileID: 0}
+  ghostHouse: {fileID: 0}
+  isInGhostHouse: 1
   ghostUp: {fileID: 9100000, guid: eb17369df8c121544ae4b31cff30e6da, type: 2}
   ghostDown: {fileID: 9100000, guid: bdf7bf7c38b79c547bad7b84d026941b, type: 2}
   ghostLeft: {fileID: 9100000, guid: 4e49624870861f549be358fe46885248, type: 2}
   ghostRight: {fileID: 9100000, guid: f26c4e47f1c74de4f86129cc1b5cecf4, type: 2}
   ghostWhite: {fileID: 9100000, guid: 1f664103e89b4fd43868363b9431e08f, type: 2}
   ghostBlue: {fileID: 9100000, guid: 864e7bd0ca6c76941926e3b26247fc4e, type: 2}
-  ghostType: 2
+  eyesUp: {fileID: 21300000, guid: 389aaaefb543e47498af2cbb696fcc98, type: 3}
+  eyesDown: {fileID: 21300000, guid: 8c02f037d044f274fa7726101cc108ed, type: 3}
+  eyesLeft: {fileID: 21300000, guid: 7eb44012e2bfb294382233648b664d2f, type: 3}
+  eyesRight: {fileID: 21300000, guid: c5d8f2bf737c1c34ea9b267796b42d42, type: 3}
   targetNode: {fileID: 0}
 --- !u!212 &212804698812735628
 SpriteRenderer:
@@ -137,7 +139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 21300000, guid: ed0a9b8b87b52474bb03f291ecaba75b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b4170b8bd8025a4bbf7288651e8b75e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

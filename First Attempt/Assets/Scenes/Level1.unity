@@ -39586,6 +39586,16 @@ Prefab:
       propertyPath: StartingNode
       value: 
       objectReference: {fileID: 1394719326}
+    - target: {fileID: 114760077632989042, guid: 93f9f1a86c5299e4a96c79d61db68be5,
+        type: 2}
+      propertyPath: chompAnimation
+      value: 
+      objectReference: {fileID: 9100000, guid: dd6cde0e346e8224aaa5d330797db9f1, type: 2}
+    - target: {fileID: 114760077632989042, guid: 93f9f1a86c5299e4a96c79d61db68be5,
+        type: 2}
+      propertyPath: deathAnimation
+      value: 
+      objectReference: {fileID: 9100000, guid: 2f5e81658a2d56546b84fb16290e2525, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93f9f1a86c5299e4a96c79d61db68be5, type: 2}
   m_IsPrefabAsset: 0
@@ -44934,9 +44944,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalPellets: 0
   score: 0
+  pacManLives: 3
   backgroundAudioNormal: {fileID: 8300000, guid: 61d2a77e3db766d4488f3e5d8baa1815,
     type: 3}
   backgroundAudioFrightened: {fileID: 8300000, guid: 4131383b6449f714097f82b35df3c76e,
+    type: 3}
+  backgroundAudioPacManDeath: {fileID: 8300000, guid: d86fd453e1f5bf54ab969024f949d2ef,
     type: 3}
 --- !u!4 &1796247413
 Transform:

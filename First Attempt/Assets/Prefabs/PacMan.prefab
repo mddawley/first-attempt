@@ -147,7 +147,7 @@ Animator:
   m_GameObject: {fileID: 1624087066048986}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 49a00aa2b27bc29409afdae3f343cc89, type: 2}
+  m_Controller: {fileID: 9100000, guid: dd6cde0e346e8224aaa5d330797db9f1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   chomp2: {fileID: 8300000, guid: e3d1380b239431e47971544fb06c9e2f, type: 3}
   orientation: {x: 0, y: 0}
   speed: 6
-  idleSprite: {fileID: 21300000, guid: 3d855604889c2b941b457440fb62e7aa, type: 3}
+  idleSprite: {fileID: 21300000, guid: 7633398d5362e8c4d8e4b74717b55f48, type: 3}
   StartingNode: {fileID: 0}
 --- !u!212 &212095948630770760
 SpriteRenderer:
@@ -208,7 +208,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3ecbcc14a8da83447a5011abc375e428, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 855bd3fda351b1344b72efad0db1fa0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
