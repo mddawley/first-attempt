@@ -231,6 +231,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -281,6 +290,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -363,6 +381,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -413,6 +440,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -614,6 +650,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -991,6 +1036,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (228)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -1122,6 +1176,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -1247,6 +1310,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -1379,6 +1451,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -1429,6 +1510,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -1781,6 +1871,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -1906,6 +2005,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -2123,6 +2231,15 @@ Prefab:
       propertyPath: isPellet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -2318,6 +2435,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -2524,6 +2650,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -2881,6 +3016,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -3007,6 +3151,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -3132,6 +3285,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -4009,6 +4171,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (190)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -4059,6 +4230,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (216)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -4186,6 +4366,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -4236,6 +4425,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (218)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -4587,6 +4785,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -5358,6 +5565,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -5965,6 +6181,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -6090,6 +6315,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -6407,6 +6641,15 @@ Prefab:
       propertyPath: isGhostHouse
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -6697,6 +6940,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -7016,6 +7268,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -7141,6 +7402,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -7268,6 +7538,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -7318,6 +7597,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -7449,6 +7737,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -7655,6 +7952,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -7978,6 +8284,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -8179,6 +8494,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -8314,6 +8638,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -8816,6 +9149,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -9017,6 +9359,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (224)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -9217,6 +9568,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -9494,6 +9854,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -9695,6 +10064,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -9826,6 +10204,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -9881,6 +10268,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -10178,6 +10574,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -10535,6 +10940,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -10660,6 +11074,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -10791,6 +11214,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -10993,6 +11425,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (204)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -11118,6 +11559,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -11250,6 +11700,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -11301,6 +11760,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212795441090865798, guid: aeec0f6cc18195046a7dabf2ebe42aff,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
@@ -11503,6 +11971,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -11629,6 +12106,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -11754,6 +12240,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -12050,6 +12545,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -12348,6 +12852,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -12399,6 +12912,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (214)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -12449,6 +12971,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (210)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -12506,6 +13037,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -12561,6 +13101,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -13005,6 +13554,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -13238,6 +13796,81 @@ Transform:
   m_Father: {fileID: 1644670222}
   m_RootOrder: 359
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &494447705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494447706}
+  - component: {fileID: 494447708}
+  - component: {fileID: 494447707}
+  m_Layer: 5
+  m_Name: 1UPScoreText
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &494447706
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494447705}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 342.9, y: 162.5}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &494447707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494447705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 2
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &494447708
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494447705}
+  m_CullTransparentMesh: 0
 --- !u!1 &495389849 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
@@ -13382,6 +14015,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -13507,6 +14149,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -13708,6 +14359,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -14060,6 +14720,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -14111,6 +14780,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -14161,6 +14839,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (226)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -14354,7 +15041,7 @@ GameObject:
   - component: {fileID: 534669903}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15087,6 +15774,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -15287,6 +15983,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -16089,6 +16794,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -16215,6 +16929,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (235)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -16305,6 +17028,15 @@ RectTransform:
   m_Children:
   - {fileID: 2005403781}
   - {fileID: 954265450}
+  - {fileID: 1287515394}
+  - {fileID: 1249249572}
+  - {fileID: 1572838118}
+  - {fileID: 494447706}
+  - {fileID: 2093957197}
+  - {fileID: 1747975736}
+  - {fileID: 1431485090}
+  - {fileID: 1044118970}
+  - {fileID: 2022543162}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16355,6 +17087,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -16807,6 +17548,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -17407,6 +18157,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -17483,6 +18242,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -17720,6 +18488,15 @@ Prefab:
       propertyPath: isPellet
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -17791,6 +18568,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -18068,6 +18854,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -18219,6 +19014,15 @@ Prefab:
       propertyPath: portalReceiver
       value: 
       objectReference: {fileID: 475948928}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -18264,6 +19068,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -18466,6 +19279,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -18622,6 +19444,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -18974,6 +19805,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -19174,6 +20014,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (201)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -19390,6 +20239,15 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -19653,6 +20511,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -19778,6 +20645,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -19924,6 +20800,15 @@ Prefab:
         type: 2}
       propertyPath: isGhostHouseEntrance
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -20290,6 +21175,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -20974,6 +21868,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -21100,6 +22003,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -21150,6 +22062,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -21282,6 +22203,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -21332,6 +22262,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -21705,6 +22644,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -21830,6 +22778,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -22003,6 +22960,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -22134,6 +23100,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212795441090865798, guid: aeec0f6cc18195046a7dabf2ebe42aff,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
   m_IsPrefabAsset: 0
@@ -22184,6 +23159,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (225)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -22466,6 +23450,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -22516,6 +23509,15 @@ Prefab:
     - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
       propertyPath: m_Name
       value: pellet_energizer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212795441090865798, guid: aeec0f6cc18195046a7dabf2ebe42aff,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
@@ -22798,6 +23800,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -22928,6 +23939,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -23160,6 +24180,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (227)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -23231,6 +24260,15 @@ Prefab:
       propertyPath: isGhostHouse
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -23281,6 +24319,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -23333,6 +24380,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -23383,6 +24439,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -23450,6 +24515,15 @@ Prefab:
       propertyPath: isPellet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -23495,6 +24569,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -23742,6 +24825,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -23867,6 +24959,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -23994,6 +25095,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -24044,6 +25154,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -24170,6 +25289,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -24315,6 +25443,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_TagString
       value: ghostHome
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -24541,6 +25678,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -24762,6 +25908,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -25114,6 +26269,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -25164,6 +26328,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -25310,6 +26483,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -25608,6 +26790,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (221)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -25628,7 +26819,7 @@ GameObject:
   - component: {fileID: 954265451}
   m_Layer: 5
   m_Name: ReadyText
-  m_TagString: Untagged
+  m_TagString: UIElements
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25649,7 +26840,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -138, y: -45}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 600, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954265451
 MonoBehaviour:
@@ -25738,6 +26929,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -25870,6 +27070,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -25920,6 +27129,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -26222,6 +27440,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -26272,6 +27499,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -26329,6 +27565,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -26384,6 +27629,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -26511,6 +27765,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -26561,6 +27824,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (233)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -26757,6 +28029,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -26959,6 +28240,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -27085,6 +28375,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -27135,6 +28434,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -27282,6 +28590,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (231)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -27342,6 +28659,15 @@ Prefab:
       propertyPath: isPellet
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -27387,6 +28713,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -27534,6 +28869,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -27542,6 +28886,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4209356252891442, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
     type: 2}
   m_PrefabInternal: {fileID: 1042810035}
+--- !u!1 &1044118969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044118970}
+  - component: {fileID: 1044118972}
+  - component: {fileID: 1044118971}
+  m_Layer: 5
+  m_Name: Lives3
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1044118970
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044118969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 323, y: -117.00003}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1044118971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044118969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 7633398d5362e8c4d8e4b74717b55f48, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1044118972
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044118969}
+  m_CullTransparentMesh: 0
 --- !u!1 &1044792771
 GameObject:
   m_ObjectHideFlags: 0
@@ -27910,6 +29323,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -28036,6 +29458,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -28086,6 +29517,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -28287,6 +29727,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (211)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -28493,6 +29942,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -28845,6 +30303,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -28970,6 +30437,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -29097,6 +30573,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -29223,6 +30708,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (230)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -29344,6 +30838,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -29432,6 +30935,15 @@ Prefab:
       propertyPath: isPellet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -29477,6 +30989,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -29679,6 +31200,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -29804,6 +31334,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -30005,6 +31544,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -30357,6 +31905,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -30583,6 +32140,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -30789,6 +32355,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -30839,6 +32414,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -31041,6 +32625,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (236)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -31086,6 +32679,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -31218,6 +32820,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -31268,6 +32879,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (237)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -31465,6 +33085,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -31515,6 +33144,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (217)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -31642,6 +33280,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -31692,6 +33339,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (234)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -31814,6 +33470,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -32035,6 +33700,15 @@ Prefab:
       propertyPath: m_TagString
       value: ghostHome
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -32080,6 +33754,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -32152,6 +33835,15 @@ Prefab:
     - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
       propertyPath: m_Name
       value: pellet_energizer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752481135466432, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212795441090865798, guid: aeec0f6cc18195046a7dabf2ebe42aff,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeec0f6cc18195046a7dabf2ebe42aff, type: 2}
@@ -32257,6 +33949,81 @@ MonoBehaviour:
   - {fileID: 1581958420}
   - {fileID: 850961053}
   validDirections: []
+--- !u!1 &1249249571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249249572}
+  - component: {fileID: 1249249574}
+  - component: {fileID: 1249249573}
+  m_Layer: 5
+  m_Name: HIGH-SCOREText
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1249249572
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249249571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 339, y: 251}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1249249573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249249571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 2
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 10000
+--- !u!222 &1249249574
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249249571}
+  m_CullTransparentMesh: 0
 --- !u!4 &1252526989 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4209356252891442, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
@@ -32330,6 +34097,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -32380,6 +34156,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -32657,6 +34442,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (213)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -32782,6 +34576,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (219)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -33113,6 +34916,81 @@ MonoBehaviour:
   - {fileID: 620009130}
   - {fileID: 951595542}
   validDirections: []
+--- !u!1 &1287515393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287515394}
+  - component: {fileID: 1287515396}
+  - component: {fileID: 1287515395}
+  m_Layer: 5
+  m_Name: HIGH-SCORE
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1287515394
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287515393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 339, y: 298}
+  m_SizeDelta: {x: 288, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1287515395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287515393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.509434, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: HIGH-SCORE
+--- !u!222 &1287515396
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287515393}
+  m_CullTransparentMesh: 0
 --- !u!1 &1296696506
 GameObject:
   m_ObjectHideFlags: 0
@@ -33305,6 +35183,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -33751,6 +35638,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -34483,6 +36379,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -34608,6 +36513,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -34740,6 +36654,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -34796,6 +36719,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -34847,6 +36779,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (232)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -34892,6 +36833,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -35059,6 +37009,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -35341,6 +37300,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -35542,6 +37510,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -35593,6 +37570,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -35643,6 +37629,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -35802,6 +37797,75 @@ Transform:
   m_Father: {fileID: 1644670222}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1431485089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431485090}
+  - component: {fileID: 1431485092}
+  - component: {fileID: 1431485091}
+  m_Layer: 5
+  m_Name: Lives2
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1431485090
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431485089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 256, y: -117}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1431485091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431485089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 7633398d5362e8c4d8e4b74717b55f48, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1431485092
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431485089}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1436785726
 Prefab:
   m_ObjectHideFlags: 0
@@ -35844,6 +37908,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -35991,6 +38064,15 @@ Prefab:
       propertyPath: isGhostHouseEntrance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -36111,6 +38193,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (205)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -36334,6 +38425,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -36686,6 +38786,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -36736,6 +38845,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -36867,6 +38985,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -37144,6 +39271,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -37194,6 +39330,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -37471,6 +39616,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -37521,6 +39675,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -37587,6 +39750,15 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -37784,6 +39956,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -37910,6 +40091,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -37960,6 +40150,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -38223,6 +40422,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -38424,6 +40632,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -38550,6 +40767,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -38675,6 +40901,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -38915,6 +41150,81 @@ MonoBehaviour:
   - {fileID: 600243940}
   - {fileID: 1386656955}
   validDirections: []
+--- !u!1 &1572838117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572838118}
+  - component: {fileID: 1572838120}
+  - component: {fileID: 1572838119}
+  m_Layer: 5
+  m_Name: 1UP
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1572838118
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572838117}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 342.89993, y: 201.5}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1572838119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572838117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.509434, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 1UP
+--- !u!222 &1572838120
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572838117}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1574314759
 Prefab:
   m_ObjectHideFlags: 0
@@ -38967,6 +41277,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -40342,6 +42661,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -40641,6 +42969,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -40785,6 +43122,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_TagString
       value: ghostHome
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -40991,6 +43337,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -41731,6 +44086,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -42006,6 +44370,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -42288,6 +44661,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -42488,6 +44870,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -42931,6 +45322,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -43794,6 +46194,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -43952,6 +46361,81 @@ Transform:
   m_Father: {fileID: 1644670222}
   m_RootOrder: 185
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1747975735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747975736}
+  - component: {fileID: 1747975738}
+  - component: {fileID: 1747975737}
+  m_Layer: 5
+  m_Name: 2UPScoreText
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1747975736
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747975735}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 342.89993, y: 86.5}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1747975737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747975735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 2
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &1747975738
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1747975735}
+  m_CullTransparentMesh: 0
 --- !u!1 &1749141371
 GameObject:
   m_ObjectHideFlags: 0
@@ -44315,6 +46799,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -44762,6 +47255,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (203)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -45038,6 +47540,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -45176,15 +47687,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalPellets: 0
   score: 0
+  playerOneScore: 0
+  playerTwoScore: 0
   pacManLives: 3
+  isPlayerOneUp: 1
   backgroundAudioNormal: {fileID: 8300000, guid: 61d2a77e3db766d4488f3e5d8baa1815,
     type: 3}
   backgroundAudioFrightened: {fileID: 8300000, guid: 4131383b6449f714097f82b35df3c76e,
     type: 3}
   backgroundAudioPacManDeath: {fileID: 8300000, guid: d86fd453e1f5bf54ab969024f949d2ef,
     type: 3}
+  consumedGhostAudioClip: {fileID: 8300000, guid: b2fc1322a9eb2a34c80183aff410eb49,
+    type: 3}
   playerText: {fileID: 2005403782}
   readyText: {fileID: 954265451}
+  highScoreText: {fileID: 1249249573}
+  playerOneUp: {fileID: 1572838119}
+  playerTwoUp: {fileID: 2093957198}
+  playerOneScoreText: {fileID: 494447707}
+  playerTwoScoreText: {fileID: 1747975737}
+  playerLives2: {fileID: 1431485091}
+  playerLives3: {fileID: 1044118971}
+  consumedGhostScoreText: {fileID: 2022543163}
 --- !u!4 &1796247413
 Transform:
   m_ObjectHideFlags: 0
@@ -45335,6 +47859,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -45638,6 +48171,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (223)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -46161,6 +48703,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -46211,6 +48762,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -46418,6 +48978,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -46468,6 +49037,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -46520,6 +49098,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -46570,6 +49157,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -47161,6 +49757,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -47307,6 +49912,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -47433,6 +50047,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -47558,6 +50181,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -47998,6 +50630,15 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -48570,6 +51211,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -49076,6 +51726,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -49449,6 +52108,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -49574,6 +52242,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -49804,6 +52481,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -50005,6 +52691,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -50055,6 +52750,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -50196,6 +52900,15 @@ Prefab:
         type: 2}
       propertyPath: isPellet
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -50362,7 +53075,7 @@ GameObject:
   - component: {fileID: 2005403782}
   m_Layer: 5
   m_Name: PlayerText
-  m_TagString: Untagged
+  m_TagString: UIElements
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50468,6 +53181,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -50537,6 +53259,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_TagString
       value: ghostHome
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -50673,6 +53404,15 @@ Prefab:
       propertyPath: isPellet
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -50724,6 +53464,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -50732,6 +53481,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4209356252891442, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
     type: 2}
   m_PrefabInternal: {fileID: 2022056189}
+--- !u!1 &2022543161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022543162}
+  - component: {fileID: 2022543164}
+  - component: {fileID: 2022543163}
+  m_Layer: 5
+  m_Name: ConsumedGhostScoreText
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2022543162
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022543161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2022543163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022543161}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 200
+--- !u!222 &2022543164
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022543161}
+  m_CullTransparentMesh: 0
 --- !u!1 &2022845000
 GameObject:
   m_ObjectHideFlags: 0
@@ -50999,6 +53823,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (229)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -51280,6 +54113,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -51652,6 +54494,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -51777,6 +54628,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -52059,6 +54919,15 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -52109,6 +54978,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -52386,6 +55264,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -52516,6 +55403,15 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -52815,6 +55711,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -53124,6 +56029,81 @@ Transform:
   m_Father: {fileID: 1644670222}
   m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2093957196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093957197}
+  - component: {fileID: 2093957199}
+  - component: {fileID: 2093957198}
+  m_Layer: 5
+  m_Name: 2UP
+  m_TagString: UIElements
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2093957197
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093957196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999785, y: 0.99999785, z: 0.99999785}
+  m_Children: []
+  m_Father: {fileID: 595016138}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 342.89993, y: 125.5}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2093957198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093957196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.509434, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 2UP
+--- !u!222 &2093957199
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093957196}
+  m_CullTransparentMesh: 0
 --- !u!1001 &2094553414
 Prefab:
   m_ObjectHideFlags: 0
@@ -53166,6 +56146,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -53318,6 +56307,15 @@ Prefab:
       propertyPath: portalReceiver
       value: 
       objectReference: {fileID: 900740406}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -53438,6 +56436,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -53687,6 +56694,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -53738,6 +56754,15 @@ Prefab:
       propertyPath: m_Name
       value: pellet (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -53788,6 +56813,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
@@ -54013,6 +57047,15 @@ Prefab:
     - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
       propertyPath: m_Name
       value: pellet (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985203421670972, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212767460040867772, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
