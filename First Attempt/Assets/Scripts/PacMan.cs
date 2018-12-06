@@ -12,7 +12,7 @@ public class PacMan : MonoBehaviour
 
     public Vector2 orientation;
 
-    public float speed = 4.0f;
+    public float speed = 6.0f;
 
     public Sprite idleSprite;
 
@@ -24,8 +24,6 @@ public class PacMan : MonoBehaviour
 
     private Vector2 direction = Vector2.zero;
     private Vector2 nextDirection;
-
-    private int pelletsConsumed = 0;
 
     private Node currentNode, previousNode, targetNode;
 
@@ -52,6 +50,43 @@ public class PacMan : MonoBehaviour
         orientation = Vector2.left;
 
         ChangePosition(direction);
+
+        if (GameBoard.isPlayerOneUp)
+        {
+            SetDefficultyForLevel(GameBoard.playerOneLevel);
+        }
+         else
+        {
+            SetDefficultyForLevel(GameBoard.playerTwoLevel);
+        }
+    }
+
+    public void SetDefficultyForLevel (int level)
+    {
+        if (level == 1)
+        {
+            speed = 6;
+        }
+
+        else if (level == 2)
+        {
+            speed = 7;
+        }
+
+        else if (level == 3)
+        {
+            speed = 8;
+        }
+
+        else if (level == 4)
+        {
+            speed = 9;
+        }
+
+        else if (level == 5)
+        {
+            speed = 10;
+        }
     }
 
     public void MoveToStartingPosition ()
@@ -280,30 +315,44 @@ public class PacMan : MonoBehaviour
 
             if (tile != null)
             {
-                if (!tile.didConsume && (tile.isPellet || tile.isSuperPellet))
+                bool didConsume = false;
+
+                if (GameBoard.isPlayerOneUp)
+                {
+                    if (!tile.didConsumePlayerOne && (tile.isPellet || tile.isSuperPellet))
+                    {
+                        didConsume = true;
+                        tile.didConsumePlayerOne = true;
+
+                        if (tile.isSuperPellet)
+                            GameBoard.playerOneScore += 50;
+                        else
+                            GameBoard.playerOneScore += 10;
+
+                        GameMenu.playerOnePelletsConsumed++;
+                    }
+                }
+
+                else
+                {
+                    if (!tile.didConsumePlayerTwo && (tile.isPellet || tile.isSuperPellet))
+                    {
+                        didConsume = true;
+                        tile.didConsumePlayerTwo = true;
+
+                        if (tile.isSuperPellet)
+                            GameBoard.playerTwoScore += 50;
+                        else
+                            GameBoard.playerTwoScore += 10;
+
+                        GameMenu.playerTwoPelletsConsumed++;
+                    }
+                }
+
+                if (didConsume)
                 {
                     o.GetComponent<SpriteRenderer>().enabled = false;
-                    tile.didConsume = true;
-                    
-                    if (GameMenu.isOnePlayerGame)
-                    {
-                        GameObject.Find("Game").transform.GetComponent<GameBoard>().playerOneScore += 10;
-                    }
 
-                    else
-                    {
-                        if (GameObject.Find("Game").transform.GetComponent<GameBoard>().isPlayerOneUp)
-                        {
-                            GameObject.Find("Game").transform.GetComponent<GameBoard>().playerOneScore += 10;
-                        }
-
-                        else
-                        {
-                            GameObject.Find("Game").transform.GetComponent<GameBoard>().playerTwoScore += 10;
-                        }
-                    }
-
-                    pelletsConsumed++;
                     PlayChompSound();
 
                     if (tile.isSuperPellet)
@@ -313,7 +362,7 @@ public class PacMan : MonoBehaviour
                         foreach (GameObject go in ghosts)
                         {
                             go.GetComponent<Ghost>().StartFrightenedMode();
-                        }                    
+                        }
                     }
                 }
             }

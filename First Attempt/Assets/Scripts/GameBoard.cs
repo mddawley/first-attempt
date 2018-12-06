@@ -13,18 +13,29 @@ public class GameBoard : MonoBehaviour {
     private bool didStartDeath = false;
     private bool didStartConsumed = false;
 
-    public int totalPellets = 0;
-    public int score = 0;
-    public int playerOneScore = 0;
-    public int playerTwoScore = 0;
-    public int pacManLives = 3;
+    public static int playerOneLevel = 1;
+    public static int playerTwoLevel = 1;
 
-    public bool isPlayerOneUp = true;
+    public int totalPellets = 0;    
+    public int score = 0;
+    public static int playerOneScore = 0;
+    public static int playerTwoScore = 0;
+
+    public static int ghostConsumedRunningScore;
+
+    public static bool isPlayerOneUp = true;
+    public bool shouldBlink = false;
+
+    public float blinkIntervalTime = 0.1f;
+    private float blinkIntervalTimer = 0;
 
     public AudioClip backgroundAudioNormal;
     public AudioClip backgroundAudioFrightened;
     public AudioClip backgroundAudioPacManDeath;
     public AudioClip consumedGhostAudioClip;
+
+    public Sprite mazeBlue;
+    public Sprite mazeWhite;
 
     public Text playerText;
     public Text readyText;
@@ -40,6 +51,8 @@ public class GameBoard : MonoBehaviour {
     public Text consumedGhostScoreText;
 
     public GameObject[,] board = new GameObject[boardWidth, boardHeight];
+
+    private bool didIncrementLevel = false;
 
     // Use this for initialization
     void Start()
@@ -64,12 +77,32 @@ public class GameBoard : MonoBehaviour {
             }            
         }
 
+        if (isPlayerOneUp)
+        {
+            if (playerOneLevel == 1)
+            {
+                GetComponent<AudioSource>().Play();
+            }
+        }
+
+        else
+        {
+            if (playerTwoLevel == 1)
+            {
+                GetComponent<AudioSource>().Play();
+            }
+        }
+
         StartGame();
     }
 
     void Update()
     {
         UpdateUI();
+
+        CheckPelletsConsumed();
+
+        CheckShouldBlink();
     }
 
     void UpdateUI()
@@ -77,22 +110,200 @@ public class GameBoard : MonoBehaviour {
         playerOneScoreText.text = playerOneScore.ToString();
         playerTwoScoreText.text = playerTwoScore.ToString();
 
-        if (pacManLives == 3)
+        if (isPlayerOneUp)
         {
-            playerLives3.enabled = true;
-            playerLives2.enabled = true;
+            if (GameMenu.livesPlayerOne == 3)
+            {
+                playerLives3.enabled = true;
+                playerLives2.enabled = true;
+            }
+
+            else if (GameMenu.livesPlayerOne == 2)
+            {
+                playerLives3.enabled = false;
+                playerLives2.enabled = true;
+            }
+
+            else if (GameMenu.livesPlayerOne == 1)
+            {
+                playerLives3.enabled = false;
+                playerLives2.enabled = false;
+            }
         }
 
-        else if (pacManLives == 2)
+        else
         {
-            playerLives3.enabled = false;
-            playerLives2.enabled = true;
+            if (GameMenu.livesPlayerTwo == 3)
+            {
+                playerLives3.enabled = true;
+                playerLives2.enabled = true;
+            }
+
+            else if (GameMenu.livesPlayerTwo == 2)
+            {
+                playerLives3.enabled = false;
+                playerLives2.enabled = true;
+            }
+
+            else if (GameMenu.livesPlayerTwo == 1)
+            {
+                playerLives3.enabled = false;
+                playerLives2.enabled = false;
+            }
         }
 
-        else if (pacManLives == 1)
+        
+    }
+
+    void CheckPelletsConsumed ()
+    {
+        if (isPlayerOneUp)
         {
-            playerLives3.enabled = false;
-            playerLives2.enabled = false;
+            //- Player one is playing
+            if (totalPellets == GameMenu.playerOnePelletsConsumed)
+            {
+                PlayerWin(1);
+            }
+        }
+
+        else
+        {
+            //- Player two is playing
+            if (totalPellets == GameMenu.playerTwoPelletsConsumed)
+            {
+                PlayerWin(2);
+            }
+        }
+    }
+
+    void PlayerWin (int playerNum)
+    {
+        if (playerNum == 1)
+        {
+            if (!didIncrementLevel)
+            {
+                didIncrementLevel = true;
+                playerOneLevel++;
+                StartCoroutine(ProcessWin(2));
+            }
+        }
+
+        else
+        {
+            if (!didIncrementLevel)
+            {
+                didIncrementLevel = true;
+                playerTwoLevel++;
+                StartCoroutine(ProcessWin(2));
+            }            
+        }        
+    }
+
+    IEnumerator ProcessWin (float delay)
+    {
+        GameObject pacMan = GameObject.Find("PacMan");
+        pacMan.transform.GetComponent<PacMan>().canMove = false;
+        pacMan.transform.GetComponent<Animator>().enabled = false;
+
+        transform.GetComponent<AudioSource>().Stop();
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<Ghost>().canMove = false;
+            ghost.transform.GetComponent<Animator>().enabled = false;
+        }
+
+        yield return new WaitForSeconds(delay);
+
+        StartCoroutine(BlinkBoard(2));
+        
+    }
+
+    IEnumerator BlinkBoard (float delay)
+    {
+        GameObject pacMan = GameObject.Find("PacMan");
+        pacMan.transform.GetComponent<SpriteRenderer>().enabled = false;
+
+        GameObject[] o = GameObject.FindGameObjectsWithTag("Ghost");
+        foreach (GameObject ghost in o)
+        {
+            ghost.transform.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        //- Blink Board
+        shouldBlink = true;
+
+        yield return new WaitForSeconds(delay);
+
+        //- Restart the game at the next level
+        shouldBlink = false;
+        StartNextLevel();
+    }
+
+    private void StartNextLevel()
+    {
+        StopAllCoroutines();
+        if (isPlayerOneUp)
+        {
+            ResetPelletsForPlayer(1);
+            GameMenu.playerOnePelletsConsumed = 0;
+        }
+
+        else
+        {
+            ResetPelletsForPlayer(2);
+            GameMenu.playerTwoPelletsConsumed = 0;
+        }
+
+        GameObject.Find("Maze").transform.GetComponent<SpriteRenderer>().sprite = mazeBlue;
+
+        didIncrementLevel = false;
+
+        StartCoroutine(ProcessStartNextLevel(1));
+    }
+
+    IEnumerator ProcessStartNextLevel (float delay)
+    {
+        playerText.transform.GetComponent<Text>().enabled = true;
+        readyText.transform.GetComponent<Text>().enabled = true;
+
+        if (isPlayerOneUp)
+            StartCoroutine(StartBlinking(playerOneUp));
+        else
+            StartCoroutine(StartBlinking(playerTwoUp));
+
+        RedrawBoard();
+
+        yield return new WaitForSeconds(delay);
+
+        StartCoroutine(ProcessRestartShowObjects(1));        
+    }
+
+    private void CheckShouldBlink()
+    {
+        if (shouldBlink)
+        {
+            if (blinkIntervalTimer < blinkIntervalTime)
+            {
+                blinkIntervalTimer += Time.deltaTime;
+            }
+
+            else
+            {
+                blinkIntervalTimer = 0;
+
+                if (GameObject.Find("Maze").transform.GetComponent<SpriteRenderer>().sprite == mazeBlue)
+                {
+                    GameObject.Find("Maze").transform.GetComponent<SpriteRenderer>().sprite = mazeWhite;
+                }
+
+                else
+                {
+                    GameObject.Find("Maze").transform.GetComponent<SpriteRenderer>().sprite = mazeBlue;
+                }
+            }
         }
     }
 
@@ -174,6 +385,8 @@ public class GameBoard : MonoBehaviour {
 
             consumedGhostScoreText.GetComponent<RectTransform>().anchorMin = viewPortPoint;
             consumedGhostScoreText.GetComponent<RectTransform>().anchorMax = viewPortPoint;
+
+            consumedGhostScoreText.text = ghostConsumedRunningScore.ToString();
 
             consumedGhostScoreText.GetComponent<Text>().enabled = true;
 
@@ -335,9 +548,12 @@ public class GameBoard : MonoBehaviour {
 
     IEnumerator ProcessRestart (float delay)
     {
-        pacManLives -= 1;
+        if (isPlayerOneUp)
+            GameMenu.livesPlayerOne -= 1;
+        else
+            GameMenu.livesPlayerTwo -= 1;
 
-        if (pacManLives == 0)
+        if (GameMenu.livesPlayerOne == 0 && GameMenu.livesPlayerTwo == 0)
         {
             playerText.transform.GetComponent<Text>().enabled = true;
 
@@ -354,15 +570,81 @@ public class GameBoard : MonoBehaviour {
             StartCoroutine(ProcessGameOver(2));
         }
 
-        else
+        else if (GameMenu.livesPlayerOne == 0 || GameMenu.livesPlayerTwo == 0 && !GameMenu.isOnePlayerGame)
         {
-            playerText.transform.GetComponent<Text>().enabled = true;
+            if (GameMenu.livesPlayerOne == 0)
+            {
+                playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+            }
+
+            else if (GameMenu.livesPlayerTwo == 0)
+            {
+                playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+            }
+
+            readyText.transform.GetComponent<Text>().text = "GAME OVER";
+            readyText.transform.GetComponent<Text>().color = Color.red;
+
             readyText.transform.GetComponent<Text>().enabled = true;
+            playerText.transform.GetComponent<Text>().enabled = true;
 
             GameObject pacMan = GameObject.Find("PacMan");
             pacMan.transform.GetComponent<SpriteRenderer>().enabled = false;
 
             transform.GetComponent<AudioSource>().Stop();
+
+            yield return new WaitForSeconds(delay);
+
+            if (!GameMenu.isOnePlayerGame)
+                isPlayerOneUp = !isPlayerOneUp;
+
+            if (isPlayerOneUp)
+                StartCoroutine(StartBlinking(playerOneUp));
+            else
+                StartCoroutine(StartBlinking(playerTwoUp));
+
+            RedrawBoard();
+
+            if (isPlayerOneUp)
+                playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+            else
+                playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+
+            readyText.transform.GetComponent<Text>().text = "READY";
+            readyText.transform.GetComponent<Text>().color = new Color(240f / 255f, 207f / 255f, 101f / 255f);
+
+            yield return new WaitForSeconds(delay);
+
+            StartCoroutine(ProcessRestartShowObjects(2));
+        }
+
+        else
+        {
+            GameObject pacMan = GameObject.Find("PacMan");
+            pacMan.transform.GetComponent<SpriteRenderer>().enabled = false;
+
+            transform.GetComponent<AudioSource>().Stop();
+
+            if (!GameMenu.isOnePlayerGame)
+                isPlayerOneUp = !isPlayerOneUp;
+
+            if (isPlayerOneUp)
+                StartCoroutine(StartBlinking(playerOneUp));
+            else
+                StartCoroutine(StartBlinking(playerTwoUp));
+
+            if (!GameMenu.isOnePlayerGame)
+            {
+                if (isPlayerOneUp)
+                    playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+                else
+                    playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+            }
+
+            playerText.transform.GetComponent<Text>().enabled = true;
+            readyText.transform.GetComponent<Text>().enabled = true;
+
+            RedrawBoard();
 
             yield return new WaitForSeconds(delay);
 
@@ -386,6 +668,7 @@ public class GameBoard : MonoBehaviour {
         foreach (GameObject ghost in o)
         {
             ghost.transform.GetComponent<SpriteRenderer>().enabled = true;
+            ghost.transform.GetComponent<Animator>().enabled = true;
             ghost.transform.GetComponent<Ghost>().MoveToStartingPosition();
         }
 
@@ -402,6 +685,22 @@ public class GameBoard : MonoBehaviour {
 
     public void Restart()
     {
+        int playerLevel = 0;
+
+        if (isPlayerOneUp)
+            playerLevel = playerOneLevel;
+        else
+            playerLevel = playerTwoLevel;
+
+        GameObject.Find("PacMan").GetComponent<PacMan>().SetDefficultyForLevel(playerLevel);
+
+        GameObject[] obj = GameObject.FindGameObjectsWithTag("Ghost");
+        
+        foreach (GameObject ghost in obj)
+        {
+            ghost.transform.GetComponent<Ghost>().SetDifficultyForLevel(playerLevel);
+        }
+
         readyText.transform.GetComponent<Text>().enabled = false;        
         
         GameObject pacMan = GameObject.Find("PacMan");
@@ -418,5 +717,59 @@ public class GameBoard : MonoBehaviour {
         transform.GetComponent<AudioSource>().Play();
 
         didStartDeath = false;
+    }
+
+    void ResetPelletsForPlayer (int playerNum)
+    {
+        Object[] objects = GameObject.FindObjectsOfType(typeof(GameObject));
+
+        foreach (GameObject o in objects)
+        {
+            if (o.GetComponent<Tile>() !=null)
+            {
+                if (o.GetComponent<Tile>().isPellet || o.GetComponent<Tile>().isSuperPellet)
+                {
+                    if (playerNum == 1)
+                    {
+                        o.GetComponent<Tile>().didConsumePlayerOne = false;
+                    }
+
+                    else
+                    {
+                        o.GetComponent<Tile>().didConsumePlayerTwo = false;
+                    }
+                }
+            }
+        }
+    }
+
+    void RedrawBoard()
+    {
+        Object[] objects = GameObject.FindObjectsOfType(typeof(GameObject));
+
+        foreach (GameObject o in objects)
+        {
+            if (o.GetComponent<Tile>() != null)
+            {
+                if (o.GetComponent<Tile>().isPellet || o.GetComponent<Tile>().isSuperPellet)
+                {
+                    if (isPlayerOneUp)
+                    {
+                        if (o.GetComponent<Tile>().didConsumePlayerOne)
+                            o.GetComponent<SpriteRenderer>().enabled = false;
+                        else
+                            o.GetComponent<SpriteRenderer>().enabled = true;
+                    }
+
+                    else
+                    {
+                        if (o.GetComponent<Tile>().didConsumePlayerTwo)
+                            o.GetComponent<SpriteRenderer>().enabled = false;
+                        else
+                            o.GetComponent<SpriteRenderer>().enabled = true;
+                    }
+                }
+            }
+        }
     }
 }

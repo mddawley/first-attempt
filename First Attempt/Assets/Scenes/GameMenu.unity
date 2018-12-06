@@ -538,7 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289c51908705a3742aac2eb37bae9ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnePlayerGame: 1
   playerText1: {fileID: 1003766654}
   playerText2: {fileID: 1274640109}
   playerSelector: {fileID: 1142440445}
