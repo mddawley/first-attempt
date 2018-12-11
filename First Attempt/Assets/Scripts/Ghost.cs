@@ -22,10 +22,13 @@ public class Ghost : MonoBehaviour
 
     private float previousMoveSpeed;
 
-    //- Ghost release timers
+    //- Ghost release pellet counters
     public int pinkyReleaseTimer = 5;
     public int inkyReleaseTimer = 14;
     public int clydeReleaseTimer = 21;
+    public int pinkyReleasePelletCounter = 0;
+    public int inkyReleasePelletCounter = 0;
+    public int clydeReleasePelletCounter = 0;
     public float ghostReleaseTimer = 0;
 
     //- Mode timers
@@ -756,7 +759,88 @@ public class Ghost : MonoBehaviour
 
     void ReleaseGhosts()
     {
-        ghostReleaseTimer += Time.deltaTime;
+        if (GameBoard.isPlayerOneUp)
+        {
+            int ghostReleasePelletCounter = GameMenu.playerOnePelletsConsumed;
+
+            if (GameBoard.playerOneLevel == 1)
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+
+            else if (GameBoard.playerOneLevel == 2)
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+
+            else
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+        }
+
+        else
+        {
+            int ghostReleasePelletCounter = GameMenu.playerTwoPelletsConsumed;
+
+            if (GameBoard.playerTwoLevel == 1)
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+
+            else if (GameBoard.playerTwoLevel == 2)
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+
+            else
+            {
+                if (ghostReleasePelletCounter >= 0)
+                    ReleasePinkGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseBlueGhost();
+
+                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                    ReleaseOrangeGhost();
+            }
+        }
+        /*ghostReleaseTimer += Time.deltaTime;
 
         if (ghostReleaseTimer > pinkyReleaseTimer)
             ReleasePinkGhost();
@@ -765,7 +849,7 @@ public class Ghost : MonoBehaviour
             ReleaseBlueGhost();
 
         if (ghostReleaseTimer > clydeReleaseTimer)
-            ReleaseOrangeGhost();
+            ReleaseOrangeGhost();*/
     }
 
     Vector2 GetTargetTile()

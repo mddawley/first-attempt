@@ -52,7 +52,14 @@ public class GameBoard : MonoBehaviour {
 
     public GameObject[,] board = new GameObject[boardWidth, boardHeight];
 
+    public Image[] levelImages;
+
     private bool didIncrementLevel = false;
+
+    bool didSpawnBonusItem1_player1;
+    bool didSpawnBonusItem2_player1;
+    bool didSpawnBonusItem1_player2;
+    bool didSpawnBonusItem2_player2;
 
     // Use this for initialization
     void Start()
@@ -103,6 +110,146 @@ public class GameBoard : MonoBehaviour {
         CheckPelletsConsumed();
 
         CheckShouldBlink();
+
+        BonusItems();
+    }
+
+    void BonusItems()
+    {
+        if (GameMenu.isOnePlayerGame)
+        {
+            SpawnBonusItemForPlayer(1);
+        }
+
+        else
+        {
+            if (isPlayerOneUp)
+            {
+                SpawnBonusItemForPlayer(1);
+            }
+
+            else
+            {
+                SpawnBonusItemForPlayer(2);
+            }
+        }
+    }
+
+    void SpawnBonusItemForPlayer (int playernum)
+    {
+        if (playernum == 1)
+        {
+            if (GameMenu.playerOnePelletsConsumed >= 70 && GameMenu.playerOnePelletsConsumed < 170)
+            {
+                if (!didSpawnBonusItem1_player1)
+                {
+                    didSpawnBonusItem1_player1 = true;
+                    SpawnBonusItemForLevel(playerOneLevel);
+                }                
+            }
+
+            else if (GameMenu.playerOnePelletsConsumed >= 170)
+            {
+                if (!didSpawnBonusItem2_player1)
+                {
+                    didSpawnBonusItem2_player1 = true;
+                    SpawnBonusItemForLevel(playerOneLevel);
+                }
+            }
+        }
+
+        else
+        {
+            if (GameMenu.playerTwoPelletsConsumed >= 70 && GameMenu.playerTwoPelletsConsumed < 170)
+            {
+                if (!didSpawnBonusItem1_player2)
+                {
+                    didSpawnBonusItem1_player2 = true;
+                    SpawnBonusItemForLevel(playerTwoLevel);
+                }
+            }
+
+            else if (GameMenu.playerTwoPelletsConsumed >= 170)
+            {
+                if (!didSpawnBonusItem2_player2)
+                {
+                    didSpawnBonusItem2_player2 = true;
+                    SpawnBonusItemForLevel(playerTwoLevel);
+                }
+            }
+        }
+    }
+
+    void SpawnBonusItemForLevel (int level)
+    {
+        GameObject bonusitem = null;
+
+        if (level == 1)
+        {
+            bonusitem = Resources.Load("Prefabs/cherry", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 2)
+        {
+            bonusitem = Resources.Load("Prefabs/strawberry", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 3)
+        {
+            bonusitem = Resources.Load("Prefabs/peach", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 4)
+        {
+            bonusitem = Resources.Load("Prefabs/peach", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 5)
+        {
+            bonusitem = Resources.Load("Prefabs/apple", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 6)
+        {
+            bonusitem = Resources.Load("Prefabs/apple", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 7)
+        {
+            bonusitem = Resources.Load("Prefabs/grapes", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 8)
+        {
+            bonusitem = Resources.Load("Prefabs/grapes", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 9)
+        {
+            bonusitem = Resources.Load("Prefabs/galaxian", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 10)
+        {
+            bonusitem = Resources.Load("Prefabs/galaxian", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 11)
+        {
+            bonusitem = Resources.Load("Prefabs/bell", typeof(GameObject)) as GameObject;
+        }
+
+        else if (level == 12)
+        {
+            bonusitem = Resources.Load("Prefabs/bell", typeof(GameObject)) as GameObject;
+        }
+
+        else 
+        {
+            bonusitem = Resources.Load("Prefabs/key", typeof(GameObject)) as GameObject;
+        }
+
+        Instantiate(bonusitem);
     }
 
     void UpdateUI()
@@ -110,8 +257,12 @@ public class GameBoard : MonoBehaviour {
         playerOneScoreText.text = playerOneScore.ToString();
         playerTwoScoreText.text = playerTwoScore.ToString();
 
+        int currentLevel;
+
         if (isPlayerOneUp)
         {
+            currentLevel = playerOneLevel;
+
             if (GameMenu.livesPlayerOne == 3)
             {
                 playerLives3.enabled = true;
@@ -133,6 +284,8 @@ public class GameBoard : MonoBehaviour {
 
         else
         {
+            currentLevel = playerTwoLevel;
+
             if (GameMenu.livesPlayerTwo == 3)
             {
                 playerLives3.enabled = true;
@@ -152,7 +305,20 @@ public class GameBoard : MonoBehaviour {
             }
         }
 
-        
+        for (int i =0; i < levelImages.Length; i++)
+        {
+            Image li = levelImages[i];
+            li.enabled = false;
+        }
+
+        for (int i = 1; i < levelImages.Length +1; i++)
+        {
+            if (currentLevel >= i)
+            {
+                Image li = levelImages[i - 1];
+                li.enabled = true;
+            }
+        }
     }
 
     void CheckPelletsConsumed ()
@@ -183,7 +349,7 @@ public class GameBoard : MonoBehaviour {
             if (!didIncrementLevel)
             {
                 didIncrementLevel = true;
-                playerOneLevel++;
+                playerOneLevel++;                
                 StartCoroutine(ProcessWin(2));
             }
         }
@@ -249,12 +415,16 @@ public class GameBoard : MonoBehaviour {
         {
             ResetPelletsForPlayer(1);
             GameMenu.playerOnePelletsConsumed = 0;
+            didSpawnBonusItem1_player1 = false;
+            didSpawnBonusItem2_player1 = false;
         }
 
         else
         {
             ResetPelletsForPlayer(2);
             GameMenu.playerTwoPelletsConsumed = 0;
+            didSpawnBonusItem1_player2 = false;
+            didSpawnBonusItem2_player2 = false;
         }
 
         GameObject.Find("Maze").transform.GetComponent<SpriteRenderer>().sprite = mazeBlue;
@@ -398,6 +568,30 @@ public class GameBoard : MonoBehaviour {
         }
     }
 
+    public void StartConsumedBonusItem (GameObject bonusItem, int scorevalue)
+    {
+        Vector2 pos = bonusItem.transform.position;
+        Vector2 viewPortPoint = Camera.main.WorldToViewportPoint(pos);
+
+        consumedGhostScoreText.GetComponent<RectTransform>().anchorMin = viewPortPoint;
+        consumedGhostScoreText.GetComponent<RectTransform>().anchorMax = viewPortPoint;
+
+        consumedGhostScoreText.text = scorevalue.ToString();
+
+        consumedGhostScoreText.GetComponent<Text>().enabled = true;
+
+        Destroy(bonusItem.gameObject);
+
+        StartCoroutine(ProcessConsumedBonusItem(0.75f));
+    }
+
+    IEnumerator ProcessConsumedBonusItem (float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        consumedGhostScoreText.GetComponent<Text>().enabled = false;
+    }
+
     IEnumerator StartBlinking (Text blinkText)
     {
         yield return new WaitForSeconds(0.25f);
@@ -493,6 +687,11 @@ public class GameBoard : MonoBehaviour {
                 playerOneUp.GetComponent<Text>().enabled = true;
                 playerTwoUp.GetComponent<Text>().enabled = true;
             }
+
+            GameObject bonusItem = GameObject.Find("bonusItem");
+
+            if (bonusItem)
+                Destroy(bonusItem.gameObject);
 
             didStartDeath = true;
 

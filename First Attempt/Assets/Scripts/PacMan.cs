@@ -151,22 +151,22 @@ public class PacMan : MonoBehaviour
 
     void CheckInput() {
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             ChangePosition(Vector2.left);
         }
 
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             ChangePosition(Vector2.right);
         }
 
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow))
         {
             ChangePosition(Vector2.up);
         }
 
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
             ChangePosition(Vector2.down);
         }
@@ -331,6 +331,9 @@ public class PacMan : MonoBehaviour
 
                         GameMenu.playerOnePelletsConsumed++;
                     }
+
+                    if (tile.isBonusItem)
+                        ConsumedBonusItem(1, tile);
                 }
 
                 else
@@ -347,6 +350,9 @@ public class PacMan : MonoBehaviour
 
                         GameMenu.playerTwoPelletsConsumed++;
                     }
+
+                    if (tile.isBonusItem)
+                        ConsumedBonusItem(2, tile);
                 }
 
                 if (didConsume)
@@ -367,6 +373,21 @@ public class PacMan : MonoBehaviour
                 }
             }
         }
+    }
+
+    void ConsumedBonusItem (int playerNum, Tile bonusItem)
+    {
+        if (playerNum == 1)
+        {
+            GameBoard.playerOneScore += bonusItem.pointValue;
+        }
+
+        else
+        {
+            GameBoard.playerTwoScore += bonusItem.pointValue;
+        }
+
+        GameObject.Find("Game").transform.GetComponent<GameBoard>().StartConsumedBonusItem(bonusItem.gameObject, bonusItem.pointValue);        
     }
 
     Node CanMove(Vector2 d)
