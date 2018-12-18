@@ -32,16 +32,6 @@ public class PacMan : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        /*Changes made from this to allow for PacMan to start in the center.
-         * 
-         * Node node = GetNodeAtPosition (transform.localPosition);
-
-        if (node != null)
-        {
-            currentNode = node;
-            Debug.Log(currentNode);
-        }*/
-
         audio = transform.GetComponent<AudioSource>();
 
         currentNode = StartingNode;
@@ -136,7 +126,7 @@ public class PacMan : MonoBehaviour
     {
         if (playedChomp1)
         {
-            //- Play chomp 2, set playedChome1 to false
+            //- Play chomp 2, set playedChomp1 to false
             audio.PlayOneShot(chomp2);
             playedChomp1 = false;
         }
@@ -330,6 +320,7 @@ public class PacMan : MonoBehaviour
                             GameBoard.playerOneScore += 10;
 
                         GameMenu.playerOnePelletsConsumed++;
+                        GameMenu.ghostReleasePelletCounterP1++;
                     }
 
                     if (tile.isBonusItem)
@@ -349,6 +340,7 @@ public class PacMan : MonoBehaviour
                             GameBoard.playerTwoScore += 10;
 
                         GameMenu.playerTwoPelletsConsumed++;
+                        GameMenu.ghostReleasePelletCounterP2++;
                     }
 
                     if (tile.isBonusItem)
@@ -396,6 +388,23 @@ public class PacMan : MonoBehaviour
 
         for (int i = 0; i < currentNode.neighbors.Length; i++)
         {
+            if (d.y == -1)
+            {
+                if (!currentNode.GetComponent<Tile>().isGhostHouseEntrance)
+                {
+                    if (currentNode.validDirections[i] == d)
+                    {
+                        moveToNode = currentNode.neighbors[i];
+                        break;
+                    }
+                }
+
+                else
+                {
+                    return moveToNode;
+                }
+            }
+
             if (currentNode.validDirections [i] == d)
             {
                 moveToNode = currentNode.neighbors[i];

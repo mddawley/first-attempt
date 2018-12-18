@@ -13,6 +13,8 @@ public class GameMenu : MonoBehaviour
 
     public static int playerOnePelletsConsumed = 0;
     public static int playerTwoPelletsConsumed = 0;
+    public static int ghostReleasePelletCounterP1 = 0;
+    public static int ghostReleasePelletCounterP2 = 0;
 
     public Text playerText1;
     public Text playerText2;

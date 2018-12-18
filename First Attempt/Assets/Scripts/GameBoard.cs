@@ -14,7 +14,7 @@ public class GameBoard : MonoBehaviour {
     private bool didStartConsumed = false;
 
     public static int playerOneLevel = 1;
-    public static int playerTwoLevel = 1;
+    public static int playerTwoLevel = 1;    
 
     public int totalPellets = 0;    
     public int score = 0;
@@ -415,6 +415,7 @@ public class GameBoard : MonoBehaviour {
         {
             ResetPelletsForPlayer(1);
             GameMenu.playerOnePelletsConsumed = 0;
+            GameMenu.ghostReleasePelletCounterP1 = 0;
             didSpawnBonusItem1_player1 = false;
             didSpawnBonusItem2_player1 = false;
         }
@@ -423,6 +424,7 @@ public class GameBoard : MonoBehaviour {
         {
             ResetPelletsForPlayer(2);
             GameMenu.playerTwoPelletsConsumed = 0;
+            GameMenu.ghostReleasePelletCounterP2 = 0;
             didSpawnBonusItem1_player2 = false;
             didSpawnBonusItem2_player2 = false;
         }
@@ -773,12 +775,12 @@ public class GameBoard : MonoBehaviour {
         {
             if (GameMenu.livesPlayerOne == 0)
             {
-                playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+                playerText.transform.GetComponent<Text>().text = "PLAYER ONE";
             }
 
             else if (GameMenu.livesPlayerTwo == 0)
             {
-                playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+                playerText.transform.GetComponent<Text>().text = "PLAYER TWO";
             }
 
             readyText.transform.GetComponent<Text>().text = "GAME OVER";
@@ -805,11 +807,11 @@ public class GameBoard : MonoBehaviour {
             RedrawBoard();
 
             if (isPlayerOneUp)
-                playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+                playerText.transform.GetComponent<Text>().text = "PLAYER ONE";
             else
-                playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+                playerText.transform.GetComponent<Text>().text = "PLAYER TWO";
 
-            readyText.transform.GetComponent<Text>().text = "READY";
+            readyText.transform.GetComponent<Text>().text = "READY!";
             readyText.transform.GetComponent<Text>().color = new Color(240f / 255f, 207f / 255f, 101f / 255f);
 
             yield return new WaitForSeconds(delay);
@@ -835,9 +837,9 @@ public class GameBoard : MonoBehaviour {
             if (!GameMenu.isOnePlayerGame)
             {
                 if (isPlayerOneUp)
-                    playerText.transform.GetComponent<Text>().text = "PLAYER 1";
+                    playerText.transform.GetComponent<Text>().text = "PLAYER ONE";
                 else
-                    playerText.transform.GetComponent<Text>().text = "PLAYER 2";
+                    playerText.transform.GetComponent<Text>().text = "PLAYER TWO";
             }
 
             playerText.transform.GetComponent<Text>().enabled = true;

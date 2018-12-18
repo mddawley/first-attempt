@@ -761,95 +761,141 @@ public class Ghost : MonoBehaviour
     {
         if (GameBoard.isPlayerOneUp)
         {
-            int ghostReleasePelletCounter = GameMenu.playerOnePelletsConsumed;
-
             if (GameBoard.playerOneLevel == 1)
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
+
             }
 
             else if (GameBoard.playerOneLevel == 2)
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
             }
 
             else
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
             }
         }
 
         else
         {
-            int ghostReleasePelletCounter = GameMenu.playerTwoPelletsConsumed;
-
             if (GameBoard.playerTwoLevel == 1)
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
+
             }
 
             else if (GameBoard.playerTwoLevel == 2)
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
             }
 
             else
             {
-                if (ghostReleasePelletCounter >= 0)
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
                     ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
 
-                if (ghostReleasePelletCounter >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
                     ReleaseOrangeGhost();
+                }
             }
+            /*ghostReleaseTimer += Time.deltaTime;
+
+            if (ghostReleaseTimer > pinkyReleaseTimer)
+                ReleasePinkGhost();
+
+            if (ghostReleaseTimer > inkyReleaseTimer)
+                ReleaseBlueGhost();
+
+            if (ghostReleaseTimer > clydeReleaseTimer)
+                ReleaseOrangeGhost();*/
         }
-        /*ghostReleaseTimer += Time.deltaTime;
-
-        if (ghostReleaseTimer > pinkyReleaseTimer)
-            ReleasePinkGhost();
-
-        if (ghostReleaseTimer > inkyReleaseTimer)
-            ReleaseBlueGhost();
-
-        if (ghostReleaseTimer > clydeReleaseTimer)
-            ReleaseOrangeGhost();*/
     }
 
     Vector2 GetTargetTile()
@@ -917,6 +963,7 @@ public class Ghost : MonoBehaviour
 
         int nodeCounter = 0;
 
+        //- Tile movement restriction checks
         for (int i = 0; i < currentNode.neighbors.Length; i++)
         {
             if (currentNode.validDirections [i] != direction * -1)
@@ -925,16 +972,25 @@ public class Ghost : MonoBehaviour
                 {
                     GameObject tile = GetTileAtPosition(currentNode.transform.position);
 
-                    if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
+                    if (tile.transform.GetComponent<Tile>().ghostUpRestrict == true)
                     {
-                        //- Found a ghost house, don't want to allow monvement
-                        if (currentNode.validDirections[i] != Vector2.down)
+                        if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
+                        {
+                            if (currentNode.validDirections[i].y == 0)
+                            {
+                                foundNodes[nodeCounter] = currentNode.neighbors[i];
+                                foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
+                                nodeCounter++;
+                            }
+                        }
+
+                        else if (currentNode.validDirections[i].y != 1)
                         {
                             foundNodes[nodeCounter] = currentNode.neighbors[i];
                             foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
                             nodeCounter++;
                         }
-                    }
+                    }                    
 
                     else
                     {

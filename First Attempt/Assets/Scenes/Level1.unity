@@ -2902,6 +2902,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e5f36473ffd705144a52ff544dcabcd1,
         type: 3}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: ghostUpRestrict
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -4266,6 +4271,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e5f36473ffd705144a52ff544dcabcd1,
         type: 3}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: ghostUpRestrict
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -7671,6 +7681,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e5f36473ffd705144a52ff544dcabcd1,
         type: 3}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: ghostUpRestrict
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -7852,8 +7867,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 478113357}
-  - {fileID: 1807733655}
   - {fileID: 1792245176}
+  - {fileID: 1807733655}
   - {fileID: 2129928633}
   validDirections: []
 --- !u!1001 &757690023
@@ -8213,8 +8228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 909434291}
   - {fileID: 786109916}
+  - {fileID: 909434291}
   - {fileID: 1394719326}
   validDirections: []
 --- !u!1001 &784902539
@@ -10457,7 +10472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.44224146, b: 0.13171947, a: 1}
+  m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11716,14 +11731,14 @@ RectTransform:
   m_GameObject: {fileID: 1044118969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.99999785, y: 0.99999785, z: 0.99999785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595016138}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 292, y: -317.00003}
+  m_AnchoredPosition: {x: 263, y: -342}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044118971
@@ -11745,7 +11760,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7633398d5362e8c4d8e4b74717b55f48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04c38275b0ddc4b48a24903bdacd6577, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15071,8 +15086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1041502114}
-  - {fileID: 1857649012}
   - {fileID: 780660001}
+  - {fileID: 1857649012}
   validDirections: []
 --- !u!1001 &1397549942
 Prefab:
@@ -15434,14 +15449,14 @@ RectTransform:
   m_GameObject: {fileID: 1431485089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595016138}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: -317}
+  m_AnchoredPosition: {x: 214, y: -342}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431485091
@@ -15463,7 +15478,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7633398d5362e8c4d8e4b74717b55f48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04c38275b0ddc4b48a24903bdacd6577, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15622,6 +15637,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e5f36473ffd705144a52ff544dcabcd1,
         type: 3}
+    - target: {fileID: 114651907609998994, guid: 43650a0fdd21a7545a0f3c1e36789bfa,
+        type: 2}
+      propertyPath: ghostUpRestrict
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43650a0fdd21a7545a0f3c1e36789bfa, type: 2}
   m_IsPrefabAsset: 0
@@ -18755,8 +18775,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 739283679}
   - {fileID: 18203585}
+  - {fileID: 739283679}
   - {fileID: 546106509}
   - {fileID: 210373218}
   validDirections: []
@@ -20609,8 +20629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155, y: 95}
-  m_SizeDelta: {x: 240, y: 40}
+  m_AnchoredPosition: {x: -155, y: 92}
+  m_SizeDelta: {x: 280, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005403782
 MonoBehaviour:
@@ -20624,7 +20644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3820755, g: 0.96258485, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.8352941, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -20633,10 +20653,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6a30c366bc7ed0f41ab76cd5e9a64929, type: 3}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -20644,7 +20664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAYER
+  m_Text: PLAYER ONE
 --- !u!222 &2005403783
 CanvasRenderer:
   m_ObjectHideFlags: 0
