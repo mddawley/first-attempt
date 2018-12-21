@@ -79,6 +79,9 @@ MonoBehaviour:
   pinkyReleaseTimer: 5
   inkyReleaseTimer: 14
   clydeReleaseTimer: 21
+  pinkyReleasePelletCounter: 0
+  inkyReleasePelletCounter: 0
+  clydeReleasePelletCounter: 0
   ghostReleaseTimer: 0
   scatterModeTimer1: 7
   chaseModeTimer1: 20
@@ -103,7 +106,10 @@ MonoBehaviour:
   eyesDown: {fileID: 21300000, guid: 8c02f037d044f274fa7726101cc108ed, type: 3}
   eyesLeft: {fileID: 21300000, guid: 7eb44012e2bfb294382233648b664d2f, type: 3}
   eyesRight: {fileID: 21300000, guid: c5d8f2bf737c1c34ea9b267796b42d42, type: 3}
+  canMove: 1
   targetNode: {fileID: 0}
+  currentNode: {fileID: 0}
+  previousNode: {fileID: 0}
 --- !u!212 &212019260792540974
 SpriteRenderer:
   m_ObjectHideFlags: 1

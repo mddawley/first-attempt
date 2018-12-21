@@ -388,15 +388,6 @@ public class PacMan : MonoBehaviour
 
         for (int i = 0; i < currentNode.neighbors.Length; i++)
         {
-<<<<<<< HEAD
-            if (currentNode.isGhostHouseEntrance == true && i == 2)
-            {
-                moveToNode = null;
-                break;
-            }
-
-            else if (currentNode.validDirections[i] == d)
-=======
             if (d.y == -1)
             {
                 if (!currentNode.GetComponent<Tile>().isGhostHouseEntrance)
@@ -415,7 +406,6 @@ public class PacMan : MonoBehaviour
             }
 
             if (currentNode.validDirections [i] == d)
->>>>>>> master
             {
                 moveToNode = currentNode.neighbors[i];
                 break;
@@ -427,8 +417,8 @@ public class PacMan : MonoBehaviour
 
     GameObject GetTileAtPosition (Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[tileX, tileY];
 
@@ -440,8 +430,8 @@ public class PacMan : MonoBehaviour
 
     Node GetNodeAtPosition(Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 
@@ -469,8 +459,8 @@ public class PacMan : MonoBehaviour
 
     GameObject GetPortal (Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 

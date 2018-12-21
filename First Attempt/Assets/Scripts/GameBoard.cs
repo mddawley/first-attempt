@@ -7,14 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class GameBoard : MonoBehaviour {
 
-    private static int boardWidth = 280;
-    private static int boardHeight = 360;
+    private static int boardWidth = 2800;
+    private static int boardHeight = 3600;
 
-<<<<<<< HEAD
-    public int totalPellets = 0;
-    public int totalPowerPellets = 0;
-    public int totalGhostHouseNodes = 0;
-=======
     private bool didStartDeath = false;
     private bool didStartConsumed = false;
 
@@ -22,7 +17,6 @@ public class GameBoard : MonoBehaviour {
     public static int playerTwoLevel = 1;    
 
     public int totalPellets = 0;    
->>>>>>> master
     public int score = 0;
     public static int playerOneScore = 0;
     public static int playerTwoScore = 0;
@@ -75,39 +69,18 @@ public class GameBoard : MonoBehaviour {
         foreach (GameObject o in objects)
         {
             Vector2 pos = o.transform.position;
-            int posX = Mathf.RoundToInt(pos.x * 10);            
-            int posY = Mathf.RoundToInt(pos.y * 10);            
+            int posX = Mathf.RoundToInt(pos.x * 100);            
+            int posY = Mathf.RoundToInt(pos.y * 100);            
 
-            if (o.name != "PacMan" && o.name != "Nodes" && o.name != "NonNodes" && o.name != "Maze" && o.name != "Pellets" && o.tag != "Ghost" && o.tag != "ghostHome" && o.name != "Canvas" && o.tag != "UIElements")
+            if (o.name != "PacMan" && o.name != "Nodes" && o.name != "NonNodes" && o.name != "Maze" && o.name != "Pellets" && o.tag != "Ghost" && o.name != "Canvas" && o.tag != "UIElements" && o.name != "Game")
             {
                 if (o.GetComponent<Tile>() != null)
                 {
-<<<<<<< HEAD
-                    if (o.GetComponent<Tile>().isPellet)
-                    {
-                        totalPellets++;                        
-                    }
-
-                    if (o.GetComponent<Tile>().isSuperPellet)
-                    {
-                        totalPowerPellets++;
-                    }
-
-                    if (o.GetComponent<Tile>().isGhostHouse)
-                    {
-                        totalGhostHouseNodes++;
-                    }
+                    if (o.GetComponent<Tile>().isPellet || o.GetComponent<Tile>().isSuperPellet)
+                        totalPellets++;
                 }
 
                 board[posX, posY] = o;
-=======
-                    if (o.GetComponent<Tile>().isPellet || o.GetComponent<Tile>().isSuperPellet)
-                    {
-                        totalPellets++;
-                    }
-                }
-
-                board[(int)pos.x, (int)pos.y] = o;
             }            
         }
 
@@ -867,7 +840,6 @@ public class GameBoard : MonoBehaviour {
                     playerText.transform.GetComponent<Text>().text = "PLAYER ONE";
                 else
                     playerText.transform.GetComponent<Text>().text = "PLAYER TWO";
->>>>>>> master
             }
 
             playerText.transform.GetComponent<Text>().enabled = true;
@@ -901,11 +873,6 @@ public class GameBoard : MonoBehaviour {
             ghost.transform.GetComponent<Ghost>().MoveToStartingPosition();
         }
 
-<<<<<<< HEAD
-        print("Total Pellets: " + totalPellets);
-        print("Total Power Pellets: " + totalPowerPellets);
-        print("Total Ghost House Nodes: " + totalGhostHouseNodes);
-=======
         GameObject pacMan = GameObject.Find("PacMan");
 
         pacMan.transform.GetComponent<Animator>().enabled = false;
@@ -915,7 +882,6 @@ public class GameBoard : MonoBehaviour {
         yield return new WaitForSeconds(delay);
 
         Restart();
->>>>>>> master
     }
 
     public void Restart()

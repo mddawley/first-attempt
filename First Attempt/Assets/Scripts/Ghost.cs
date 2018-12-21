@@ -108,7 +108,7 @@ public class Ghost : MonoBehaviour
         pacMan = GameObject.FindGameObjectWithTag("PacMan");
 
         Node node = GetNodeAtPosition(transform.localPosition);
-        Debug.Log(node);
+        Debug.Log(string.Format("{0} pulled {1} as its node", this.transform.name, node));
 
         if (node != null)
         {
@@ -928,8 +928,8 @@ public class Ghost : MonoBehaviour
 
     Vector2 GetRandomTile()
     {
-        int x = Random.Range(0, 28);
-        int y = Random.Range(0, 36);
+        int x = Random.Range(0, 2800);
+        int y = Random.Range(0, 3600);
 
         return new Vector2(x, y);
     }
@@ -941,6 +941,7 @@ public class Ghost : MonoBehaviour
         if (currentMode == Mode.Chase)
         {
             targetTile = GetTargetTile();
+            Debug.Log(string.Format("the target tile is {0}", targetTile));
         }
         
         else if (currentMode == Mode.Scatter)
@@ -974,31 +975,34 @@ public class Ghost : MonoBehaviour
                 {
                     GameObject tile = GetTileAtPosition(currentNode.transform.position);
 
-                    if (tile.transform.GetComponent<Tile>().ghostUpRestrict == true)
+                    switch (tile.transform.GetComponent<Tile>().ghostUpRestrict)
                     {
-                        if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
-                        {
-                            if (currentNode.validDirections[i].y == 0)
+                        case true:
+                            Debug.Log(string.Format("the restricted tile being checked is {0}", tile));
+                            if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
+                            {
+                                if (currentNode.validDirections[i].y == 0)
+                                {
+                                    foundNodes[nodeCounter] = currentNode.neighbors[i];
+                                    foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
+                                    nodeCounter++;
+                                }
+                            }
+
+                            else if (currentNode.validDirections[i].y != 1)
                             {
                                 foundNodes[nodeCounter] = currentNode.neighbors[i];
                                 foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
                                 nodeCounter++;
                             }
-                        }
 
-                        else if (currentNode.validDirections[i].y != 1)
-                        {
+                            break;
+                        default:
+                            Debug.Log(string.Format("the unrestricted tile being checked is {0}", tile));
                             foundNodes[nodeCounter] = currentNode.neighbors[i];
                             foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
                             nodeCounter++;
-                        }
-                    }                    
-
-                    else
-                    {
-                        foundNodes[nodeCounter] = currentNode.neighbors[i];
-                        foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
-                        nodeCounter++;
+                            break;
                     }
                 }
 
@@ -1043,8 +1047,8 @@ public class Ghost : MonoBehaviour
 
     Node GetNodeAtPosition(Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").GetComponent<GameBoard>().board[tileX, tileY];
 
@@ -1061,8 +1065,8 @@ public class Ghost : MonoBehaviour
 
     GameObject GetTileAtPosition(Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 
@@ -1074,8 +1078,8 @@ public class Ghost : MonoBehaviour
 
     GameObject GetPortal(Vector2 pos)
     {
-        int tileX = Mathf.RoundToInt(pos.x * 10);
-        int tileY = Mathf.RoundToInt(pos.y * 10);
+        int tileX = Mathf.RoundToInt(pos.x * 100);
+        int tileY = Mathf.RoundToInt(pos.y * 100);
 
         GameObject tile = GameObject.Find("Game").transform.GetComponent<GameBoard>().board[tileX, tileY];
 
