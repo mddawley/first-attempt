@@ -22,10 +22,13 @@ public class Ghost : MonoBehaviour
 
     private float previousMoveSpeed;
 
-    //- Ghost release timers
+    //- Ghost release pellet counters
     public int pinkyReleaseTimer = 5;
     public int inkyReleaseTimer = 14;
     public int clydeReleaseTimer = 21;
+    public int pinkyReleasePelletCounter = 0;
+    public int inkyReleasePelletCounter = 0;
+    public int clydeReleasePelletCounter = 0;
     public float ghostReleaseTimer = 0;
 
     //- Mode timers
@@ -38,7 +41,7 @@ public class Ghost : MonoBehaviour
     public int scatterModeTimer4 = 5;
     public int frightenedModeDuration = 10;
     public int startBlinkingAt = 7;
-
+    
     private int modeChangeIteration = 1;
     private float modeChangeTimer = 0;
     private float frightenedModeTimer = 0;
@@ -79,6 +82,7 @@ public class Ghost : MonoBehaviour
     Mode previousMode;
 
     //-Movement
+    public bool canMove = true;
     public Node targetNode;
     public Node currentNode, previousNode;
     private Vector2 direction, nextDirection;
@@ -89,6 +93,16 @@ public class Ghost : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        if (GameBoard.isPlayerOneUp)
+        {
+            SetDifficultyForLevel(GameBoard.playerOneLevel);
+        }
+
+        else
+        {
+            SetDifficultyForLevel(GameBoard.playerTwoLevel);
+        }        
+
         backgroundAudio = GameObject.Find("Game").transform.GetComponent<AudioSource>();
 
         pacMan = GameObject.FindGameObjectWithTag("PacMan");
@@ -121,19 +135,165 @@ public class Ghost : MonoBehaviour
 
     }
 
-    public void Restart()
+    public void SetDifficultyForLevel (int level)
+    {
+        if (level == 1)
+        {
+            scatterModeTimer1 = 7;
+            scatterModeTimer2 = 7;
+            scatterModeTimer3 = 5;
+            scatterModeTimer4 = 5;
+
+            chaseModeTimer1 = 20;
+            chaseModeTimer2 = 20;
+            chaseModeTimer3 = 20;
+
+            frightenedModeDuration = 10;
+            startBlinkingAt = 7;
+
+            pinkyReleaseTimer = 5;
+            inkyReleaseTimer = 14;
+            clydeReleaseTimer = 21;
+
+            moveSpeed = 5.9f;
+            normalMoveSpeed = 5.9f;
+            frightenedModeMoveSpeed = 2.9f;
+            consumedMoveSpeed = 15f;
+        }
+
+        else if (level == 2)
+        {
+            scatterModeTimer1 = 7;
+            scatterModeTimer2 = 7;
+            scatterModeTimer3 = 5;
+            scatterModeTimer4 = 1;
+
+            chaseModeTimer1 = 20;
+            chaseModeTimer2 = 20;
+            chaseModeTimer3 = 1033;
+
+            frightenedModeDuration = 9;
+            startBlinkingAt = 6;
+
+            pinkyReleaseTimer = 4;
+            inkyReleaseTimer = 12;
+            clydeReleaseTimer = 18;
+
+            moveSpeed = 6.9f;
+            normalMoveSpeed = 6.9f;
+            frightenedModeMoveSpeed = 3.9f;
+            consumedMoveSpeed = 18f;
+        }
+
+        else if (level == 3)
+        {
+            scatterModeTimer1 = 7;
+            scatterModeTimer2 = 7;
+            scatterModeTimer3 = 5;
+            scatterModeTimer4 = 1;
+
+            chaseModeTimer1 = 20;
+            chaseModeTimer2 = 20;
+            chaseModeTimer3 = 1033;
+
+            frightenedModeDuration = 8;
+            startBlinkingAt = 5;
+
+            pinkyReleaseTimer = 3;
+            inkyReleaseTimer = 10;
+            clydeReleaseTimer = 15;
+
+            moveSpeed = 7.9f;
+            normalMoveSpeed = 7.9f;
+            frightenedModeMoveSpeed = 4.9f;
+            consumedMoveSpeed = 20f;
+        }
+
+        else if (level == 4)
+        {
+            scatterModeTimer1 = 7;
+            scatterModeTimer2 = 7;
+            scatterModeTimer3 = 5;
+            scatterModeTimer4 = 1;
+
+            chaseModeTimer1 = 20;
+            chaseModeTimer2 = 20;
+            chaseModeTimer3 = 1033;
+
+            frightenedModeDuration = 7;
+            startBlinkingAt = 4;
+
+            pinkyReleaseTimer = 2;
+            inkyReleaseTimer = 8;
+            clydeReleaseTimer = 13;
+
+            moveSpeed = 8.9f;
+            normalMoveSpeed = 8.9f;
+            frightenedModeMoveSpeed = 5.9f;
+            consumedMoveSpeed = 22f;
+        }
+
+        else if (level == 5)
+        {
+            scatterModeTimer1 = 5;
+            scatterModeTimer2 = 5;
+            scatterModeTimer3 = 5;
+            scatterModeTimer4 = 1;
+
+            chaseModeTimer1 = 20;
+            chaseModeTimer2 = 20;
+            chaseModeTimer3 = 1037;
+
+            frightenedModeDuration = 6;
+            startBlinkingAt = 3;
+
+            pinkyReleaseTimer = 2;
+            inkyReleaseTimer = 6;
+            clydeReleaseTimer = 10;
+
+            moveSpeed = 9.9f;
+            normalMoveSpeed = 9.9f;
+            frightenedModeMoveSpeed = 6.9f;
+            consumedMoveSpeed = 24f;
+        }
+    }
+
+    public void MoveToStartingPosition ()
     {
         if (transform.name == "Ghost_Blinky")
         {
             transform.position = new Vector2(13.5f, 19);
             direction = Vector2.left;
         }
-            
+
         else
         {
             transform.position = startingPosition.transform.position;
-            isInGhostHouse = true;            
+            isInGhostHouse = true;
         }
+
+        if (isInGhostHouse)
+        {
+            direction = Vector2.up;            
+        }
+
+        else
+        {
+            direction = Vector2.left;            
+        }
+
+        UpdateAnimatorController();
+    }
+
+    public void Restart()
+    {
+        canMove = true;        
+
+        currentMode = Mode.Scatter;
+
+        moveSpeed = normalMoveSpeed;
+
+        previousMoveSpeed = 0;        
 
         ghostReleaseTimer = 0;
         modeChangeIteration = 1;
@@ -154,21 +314,25 @@ public class Ghost : MonoBehaviour
         }
 
         previousNode = currentNode;
-        UpdateAnimatorController();        
+        UpdateAnimatorController();
     }
 	
 	// Update is called once per frame
 	void Update()
     {
-        ModeUpdate();
+        if (canMove)
+        {
+            ModeUpdate();
 
-        Move();
+            Move();
 
-        ReleaseGhosts();
+            ReleaseGhosts();
 
-        CheckCollision();
+            CheckCollision();
 
-        CheckIsInGhostHouse();
+            CheckIsInGhostHouse();
+        }
+        
 	}
 
     void CheckIsInGhostHouse()
@@ -219,20 +383,46 @@ public class Ghost : MonoBehaviour
                 return; 
             }
 
-            else if (currentMode != Mode.Frightened && currentMode != Mode.Consumed)
+            else
             {
-                //- Pac-Man should die
-                GameObject.Find("Game").transform.GetComponent<GameBoard>().Restart();
+                if (currentMode != Mode.Consumed)
+                {
+
+                    //- Pac-Man should die
+                    GameObject.Find("Game").transform.GetComponent<GameBoard>().StartDeath();
+                }
             }            
         }
     }
 
     void Consumed()
     {
+        if (GameMenu.isOnePlayerGame)
+        {
+            GameBoard.playerOneScore += GameBoard.ghostConsumedRunningScore;
+        }
+
+        else
+        {
+            if (GameBoard.isPlayerOneUp)
+            {
+                GameBoard.playerOneScore += GameBoard.ghostConsumedRunningScore;
+            }
+
+            else
+            {
+                GameBoard.playerTwoScore += GameBoard.ghostConsumedRunningScore;
+            }
+        }
         currentMode = Mode.Consumed;
         previousMoveSpeed = moveSpeed;
         moveSpeed = consumedMoveSpeed;
+
         UpdateAnimatorController();
+
+        GameObject.Find("Game").transform.GetComponent<GameBoard>().StartConsumed(this.GetComponent<Ghost>());
+
+        GameBoard.ghostConsumedRunningScore = GameBoard.ghostConsumedRunningScore * 2;
     }
 
     void UpdateAnimatorController()
@@ -436,8 +626,7 @@ public class Ghost : MonoBehaviour
     {
         if (currentMode == Mode.Frightened)
         {
-            moveSpeed = previousMoveSpeed;
-       
+            moveSpeed = previousMoveSpeed;       
         }
 
         if (m == Mode.Frightened)
@@ -458,6 +647,8 @@ public class Ghost : MonoBehaviour
     {
         if (currentMode != Mode.Consumed)
         {
+            GameBoard.ghostConsumedRunningScore = 200;
+
             frightenedModeTimer = 0;
             backgroundAudio.clip = GameObject.Find("Game").transform.GetComponent<GameBoard>().backgroundAudioFrightened;
             backgroundAudio.Play();
@@ -570,16 +761,143 @@ public class Ghost : MonoBehaviour
 
     void ReleaseGhosts()
     {
-        ghostReleaseTimer += Time.deltaTime;
+        if (GameBoard.isPlayerOneUp)
+        {
+            if (GameBoard.playerOneLevel == 1)
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-        if (ghostReleaseTimer > pinkyReleaseTimer)
-            ReleasePinkGhost();
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
 
-        if (ghostReleaseTimer > inkyReleaseTimer)
-            ReleaseBlueGhost();
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
 
-        if (ghostReleaseTimer > clydeReleaseTimer)
-            ReleaseOrangeGhost();
+            }
+
+            else if (GameBoard.playerOneLevel == 2)
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
+            }
+
+            else
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP1 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP1 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
+            }
+        }
+
+        else
+        {
+            if (GameBoard.playerTwoLevel == 1)
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 30 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 60 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
+
+            }
+
+            else if (GameBoard.playerTwoLevel == 2)
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 50 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
+            }
+
+            else
+            {
+                if (GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0)
+                {
+                    ReleasePinkGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseBlueGhost();
+                    GameMenu.ghostReleasePelletCounterP2 = 0;
+                }
+
+                if (GameObject.Find("Ghost_Clyde").GetComponent<Ghost>().isInGhostHouse && GameMenu.ghostReleasePelletCounterP2 >= 0 && !GameObject.Find("Ghost_Pinky").GetComponent<Ghost>().isInGhostHouse && !GameObject.Find("Ghost_Inky").GetComponent<Ghost>().isInGhostHouse)
+                {
+                    ReleaseOrangeGhost();
+                }
+            }
+            /*ghostReleaseTimer += Time.deltaTime;
+
+            if (ghostReleaseTimer > pinkyReleaseTimer)
+                ReleasePinkGhost();
+
+            if (ghostReleaseTimer > inkyReleaseTimer)
+                ReleaseBlueGhost();
+
+            if (ghostReleaseTimer > clydeReleaseTimer)
+                ReleaseOrangeGhost();*/
+        }
     }
 
     Vector2 GetTargetTile()
@@ -647,6 +965,7 @@ public class Ghost : MonoBehaviour
 
         int nodeCounter = 0;
 
+        //- Tile movement restriction checks
         for (int i = 0; i < currentNode.neighbors.Length; i++)
         {
             if (currentNode.validDirections [i] != direction * -1)
@@ -655,16 +974,25 @@ public class Ghost : MonoBehaviour
                 {
                     GameObject tile = GetTileAtPosition(currentNode.transform.position);
 
-                    if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
+                    if (tile.transform.GetComponent<Tile>().ghostUpRestrict == true)
                     {
-                        //- Found a ghost house, don't want to allow monvement
-                        if (currentNode.validDirections[i] != Vector2.down)
+                        if (tile.transform.GetComponent<Tile>().isGhostHouseEntrance == true)
+                        {
+                            if (currentNode.validDirections[i].y == 0)
+                            {
+                                foundNodes[nodeCounter] = currentNode.neighbors[i];
+                                foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
+                                nodeCounter++;
+                            }
+                        }
+
+                        else if (currentNode.validDirections[i].y != 1)
                         {
                             foundNodes[nodeCounter] = currentNode.neighbors[i];
                             foundNodesDirection[nodeCounter] = currentNode.validDirections[i];
                             nodeCounter++;
                         }
-                    }
+                    }                    
 
                     else
                     {

@@ -8,11 +8,17 @@ public class Tile : MonoBehaviour {
 
     public bool isPellet;
     public bool isSuperPellet;
-    public bool didConsume;
+
+    public bool didConsumePlayerOne;
+    public bool didConsumePlayerTwo;
 
     public bool isGhostHouseEntrance;
     public bool isGhostHouseExit;
     public bool isGhostHouse;
+    public bool ghostUpRestrict;
+
+    public bool isBonusItem;
+    public int pointValue;
 
     public GameObject portalReceiver;
 }

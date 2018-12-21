@@ -7,11 +7,16 @@ public class PacMan : MonoBehaviour
     public AudioClip chomp1;
     public AudioClip chomp2;
 
+    public RuntimeAnimatorController chompAnimation;
+    public RuntimeAnimatorController deathAnimation;
+
     public Vector2 orientation;
 
-    public float speed = 4.0f;
+    public float speed = 6.0f;
 
     public Sprite idleSprite;
+
+    public bool canMove = true;
 
     private bool playedChomp1 = false;
 
@@ -20,8 +25,6 @@ public class PacMan : MonoBehaviour
     private Vector2 direction = Vector2.zero;
     private Vector2 nextDirection;
 
-    private int pelletsConsumed = 0;
-
     private Node currentNode, previousNode, targetNode;
 
     public Node StartingNode;
@@ -29,16 +32,6 @@ public class PacMan : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        /*Changes made from this to allow for PacMan to start in the center.
-         * 
-         * Node node = GetNodeAtPosition (transform.localPosition);
-
-        if (node != null)
-        {
-            currentNode = node;
-            Debug.Log(currentNode);
-        }*/
-
         audio = transform.GetComponent<AudioSource>();
 
         currentNode = StartingNode;
@@ -47,40 +40,93 @@ public class PacMan : MonoBehaviour
         orientation = Vector2.left;
 
         ChangePosition(direction);
+
+        if (GameBoard.isPlayerOneUp)
+        {
+            SetDefficultyForLevel(GameBoard.playerOneLevel);
+        }
+         else
+        {
+            SetDefficultyForLevel(GameBoard.playerTwoLevel);
+        }
+    }
+
+    public void SetDefficultyForLevel (int level)
+    {
+        if (level == 1)
+        {
+            speed = 6;
+        }
+
+        else if (level == 2)
+        {
+            speed = 7;
+        }
+
+        else if (level == 3)
+        {
+            speed = 8;
+        }
+
+        else if (level == 4)
+        {
+            speed = 9;
+        }
+
+        else if (level == 5)
+        {
+            speed = 10;
+        }
+    }
+
+    public void MoveToStartingPosition ()
+    {
+        transform.position = new Vector2(13.5f, 7);
+
+        transform.GetComponent<SpriteRenderer>().sprite = idleSprite;
+
+        direction = Vector2.left;
+        orientation = Vector2.left;
+
+        UpdateOrientation();
     }
 
     public void Restart()
     {
-        transform.position = new Vector2 (13.5f, 7);
+        canMove = true;
 
         currentNode = StartingNode;
-
-        direction = Vector2.left;
-        orientation = Vector2.left;
+        
         nextDirection = Vector2.left;
+
+        transform.GetComponent<Animator>().runtimeAnimatorController = chompAnimation;
+        transform.GetComponent<Animator>().enabled = true;
 
         ChangePosition(direction);
     }
 
     // Update is called once per frame
     void Update()
-    {        
-        CheckInput();
+    {
+        if (canMove)
+        {
+            CheckInput();
 
-        Move();
+            Move();
 
-        UpdateOrientation();
+            UpdateOrientation();
 
-        UpdateAnimationState();
+            UpdateAnimationState();
 
-        ConsumePellet();
+            ConsumePellet();
+        }        
     }
 
     void PlayChompSound()
     {
         if (playedChomp1)
         {
-            //- Play chomp 2, set playedChome1 to false
+            //- Play chomp 2, set playedChomp1 to false
             audio.PlayOneShot(chomp2);
             playedChomp1 = false;
         }
@@ -95,22 +141,22 @@ public class PacMan : MonoBehaviour
 
     void CheckInput() {
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             ChangePosition(Vector2.left);
         }
 
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             ChangePosition(Vector2.right);
         }
 
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow))
         {
             ChangePosition(Vector2.up);
         }
 
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
             ChangePosition(Vector2.down);
         }
@@ -259,12 +305,52 @@ public class PacMan : MonoBehaviour
 
             if (tile != null)
             {
-                if (!tile.didConsume && (tile.isPellet || tile.isSuperPellet))
+                bool didConsume = false;
+
+                if (GameBoard.isPlayerOneUp)
+                {
+                    if (!tile.didConsumePlayerOne && (tile.isPellet || tile.isSuperPellet))
+                    {
+                        didConsume = true;
+                        tile.didConsumePlayerOne = true;
+
+                        if (tile.isSuperPellet)
+                            GameBoard.playerOneScore += 50;
+                        else
+                            GameBoard.playerOneScore += 10;
+
+                        GameMenu.playerOnePelletsConsumed++;
+                        GameMenu.ghostReleasePelletCounterP1++;
+                    }
+
+                    if (tile.isBonusItem)
+                        ConsumedBonusItem(1, tile);
+                }
+
+                else
+                {
+                    if (!tile.didConsumePlayerTwo && (tile.isPellet || tile.isSuperPellet))
+                    {
+                        didConsume = true;
+                        tile.didConsumePlayerTwo = true;
+
+                        if (tile.isSuperPellet)
+                            GameBoard.playerTwoScore += 50;
+                        else
+                            GameBoard.playerTwoScore += 10;
+
+                        GameMenu.playerTwoPelletsConsumed++;
+                        GameMenu.ghostReleasePelletCounterP2++;
+                    }
+
+                    if (tile.isBonusItem)
+                        ConsumedBonusItem(2, tile);
+                }
+
+                if (didConsume)
                 {
                     o.GetComponent<SpriteRenderer>().enabled = false;
-                    tile.didConsume = true;
-                    GameObject.Find("Game").GetComponent<GameBoard>().score += 1;
-                    pelletsConsumed++;
+
                     PlayChompSound();
 
                     if (tile.isSuperPellet)
@@ -274,11 +360,26 @@ public class PacMan : MonoBehaviour
                         foreach (GameObject go in ghosts)
                         {
                             go.GetComponent<Ghost>().StartFrightenedMode();
-                        }                    
+                        }
                     }
                 }
             }
         }
+    }
+
+    void ConsumedBonusItem (int playerNum, Tile bonusItem)
+    {
+        if (playerNum == 1)
+        {
+            GameBoard.playerOneScore += bonusItem.pointValue;
+        }
+
+        else
+        {
+            GameBoard.playerTwoScore += bonusItem.pointValue;
+        }
+
+        GameObject.Find("Game").transform.GetComponent<GameBoard>().StartConsumedBonusItem(bonusItem.gameObject, bonusItem.pointValue);        
     }
 
     Node CanMove(Vector2 d)
@@ -287,6 +388,7 @@ public class PacMan : MonoBehaviour
 
         for (int i = 0; i < currentNode.neighbors.Length; i++)
         {
+<<<<<<< HEAD
             if (currentNode.isGhostHouseEntrance == true && i == 2)
             {
                 moveToNode = null;
@@ -294,6 +396,26 @@ public class PacMan : MonoBehaviour
             }
 
             else if (currentNode.validDirections[i] == d)
+=======
+            if (d.y == -1)
+            {
+                if (!currentNode.GetComponent<Tile>().isGhostHouseEntrance)
+                {
+                    if (currentNode.validDirections[i] == d)
+                    {
+                        moveToNode = currentNode.neighbors[i];
+                        break;
+                    }
+                }
+
+                else
+                {
+                    return moveToNode;
+                }
+            }
+
+            if (currentNode.validDirections [i] == d)
+>>>>>>> master
             {
                 moveToNode = currentNode.neighbors[i];
                 break;
