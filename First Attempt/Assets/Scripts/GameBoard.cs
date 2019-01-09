@@ -28,6 +28,8 @@ public class GameBoard : MonoBehaviour {
 
     public float blinkIntervalTime = 0.1f;
     private float blinkIntervalTimer = 0;
+    private float pelletBlinkTimer = 0;
+    private bool powerPelletsVisible = true;
 
     public AudioClip backgroundAudioNormal;
     public AudioClip backgroundAudioFrightened;
@@ -64,6 +66,8 @@ public class GameBoard : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        highScoreText.text = PlayerPrefs.GetInt("HighScore", 10000).ToString();
+
         Object[] objects = GameObject.FindObjectsOfType(typeof(GameObject));
 
         foreach (GameObject o in objects)
@@ -105,13 +109,155 @@ public class GameBoard : MonoBehaviour {
 
     void Update()
     {
+        GameObject pacMan = GameObject.Find("PacMan");
+
         UpdateUI();
+
+        UpdateHighScore();
 
         CheckPelletsConsumed();
 
         CheckShouldBlink();
 
         BonusItems();
+
+        if (pacMan.transform.GetComponent<PacMan>().canMove == true)
+        {
+            BlinkPowerPellets();
+        }
+    }
+
+    void BlinkPowerPellets ()
+    {
+        GameObject[] powerPellets = GameObject.FindGameObjectsWithTag("PowerPellet");
+
+        pelletBlinkTimer += Time.deltaTime;
+
+        if (pelletBlinkTimer >= 0.2f)
+        {
+            pelletBlinkTimer = 0f;
+
+            if (GameMenu.isOnePlayerGame)
+            {
+                if (powerPelletsVisible)
+                {
+                    foreach (GameObject powerPellet in powerPellets)
+                    {
+                        if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerOne == false)
+                        {
+                            powerPellet.transform.GetComponent<SpriteRenderer>().enabled = false;
+                            powerPelletsVisible = false;
+                        }                        
+                    }
+                    
+                }
+
+                else
+                {
+                    foreach (GameObject powerPellet in powerPellets)
+                    {
+                        if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerOne == false)
+                        {
+                            powerPellet.transform.GetComponent<SpriteRenderer>().enabled = true;
+                            powerPelletsVisible = true;
+                        }
+                    }
+                }
+            }
+
+            else
+            {
+                if (isPlayerOneUp)
+                {
+                    if (powerPelletsVisible)
+                    {
+                        foreach (GameObject powerPellet in powerPellets)
+                        {
+                            if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerOne == false)
+                            {
+                                powerPellet.transform.GetComponent<SpriteRenderer>().enabled = false;
+                                powerPelletsVisible = false;
+                            }
+                        }
+
+                    }
+
+                    else
+                    {
+                        foreach (GameObject powerPellet in powerPellets)
+                        {
+                            if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerOne == false)
+                            {
+                                powerPellet.transform.GetComponent<SpriteRenderer>().enabled = true;
+                                powerPelletsVisible = true;
+                            }
+                        }
+                    }
+                }
+
+                else
+                {
+                    if (powerPelletsVisible)
+                    {
+                        foreach (GameObject powerPellet in powerPellets)
+                        {
+                            if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerTwo == false)
+                            {
+                                powerPellet.transform.GetComponent<SpriteRenderer>().enabled = false;
+                                powerPelletsVisible = false;
+                            }
+                        }
+
+                    }
+
+                    else
+                    {
+                        foreach (GameObject powerPellet in powerPellets)
+                        {
+                            if (powerPellet.transform.GetComponent<Tile>().didConsumePlayerTwo == false)
+                            {
+                                powerPellet.transform.GetComponent<SpriteRenderer>().enabled = true;
+                                powerPelletsVisible = true;
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+    }
+
+
+    public void UpdateHighScore ()
+    {
+        if (GameMenu.isOnePlayerGame)
+        {
+            if (playerOneScore > PlayerPrefs.GetInt("HighScore", 10000))
+            {
+                PlayerPrefs.SetInt("HighScore", playerOneScore);
+                highScoreText.text = playerOneScore.ToString();
+            }
+        }
+
+        else
+        {
+            if (isPlayerOneUp)
+            {
+                if (playerOneScore > PlayerPrefs.GetInt("HighScore", 10000))
+                {
+                    PlayerPrefs.SetInt("HighScore", playerOneScore);
+                    highScoreText.text = playerOneScore.ToString();
+                }
+            }
+
+            else
+            {
+                if (playerTwoScore > PlayerPrefs.GetInt("HighScore", 10000))
+                {
+                    PlayerPrefs.SetInt("HighScore", playerTwoScore);
+                    highScoreText.text = playerTwoScore.ToString();
+                }
+            }
+        }
     }
 
     void BonusItems()
